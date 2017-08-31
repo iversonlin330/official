@@ -15,3 +15,5 @@ Route::get('/', function () {
     return view('home');
 });
 Route::controller('forum', 'ForumController');
+Route::controller('game', 'GameController');
+Route::controller('player', 'PlayerController');

@@ -17,5 +17,6 @@
 <body>
   @yield('body')
   <script src="{{ asset("assets/scripts/frontend.js") }}" type="text/javascript"></script>
+  @yield('script')
 </body>
 </html>

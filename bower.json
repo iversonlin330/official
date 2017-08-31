@@ -1,0 +1,22 @@
+{
+  "name": "official",
+  "description": "",
+  "main": "",
+  "authors": [
+    "David Lin <davidlin@qnap.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/iversonlin330/official",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "datatables.net-bs": "^2.1.1",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

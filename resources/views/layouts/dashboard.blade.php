@@ -17,9 +17,42 @@
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
+            @if(0)
             <li><a href="{{ url ('/login') }}">登入/註冊</a></li>
+            @endif
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
+                    <i class="fa fa-user fa-fw"></i>登入 <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="{{url('/oauth/google')}}"><i class="fa fa-google fa-fw"></i> Google</a>
+                    </li>
+                    <li><a href="{{url('/oauth/facebook')}}"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
+                    </li>
+                    @if(0)
+                    <li class="divider"></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    </li>
+                    @endif
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
             @if(Auth::check())
-
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
+                    <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="#"><i class="fa fa-user fa-fw"></i> 個人資料</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> 設定</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li><a href="{{url('/user/logout')}}"><i class="fa fa-sign-out fa-fw"></i> 登出</a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
             @endif
             @if(0)
                 <li class="dropdown">
@@ -253,18 +286,19 @@
                         </li>
                     @endif
                         <li {{ (Request::is('forum') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('/forum/view') }}"><i class="fa fa-dashboard fa-fw"></i> Forum</a>
+                            <a href="{{ url ('/forum/view') }}"><i class="fa fa-dashboard fa-fw"></i> 討論區</a>
                         </li>
                         <li {{ (Request::is('/') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('') }}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="{{ url ('棋賽資訊') }}"><i class="fa fa-dashboard fa-fw"></i> 1</a>
                         </li>
                         <li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('charts') }}"><i class="fa fa-bar-chart-o fa-fw"></i> Charts</a>
+                            <a href="{{ url ('實戰棋路') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 2</a>
                             <!-- /.nav-second-level -->
                         </li>
                         <li {{ (Request::is('*tables') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('tables') }}"><i class="fa fa-table fa-fw"></i> Tables</a>
+                            <a href="{{ url ('棋手點評') }}"><i class="fa fa-table fa-fw"></i> 3</a>
                         </li>
+                        @if(0)
                         <li {{ (Request::is('*forms') ? 'class="active"' : '') }}>
                             <a href="{{ url ('forms') }}"><i class="fa fa-edit fa-fw"></i> Forms</a>
                         </li>
@@ -337,6 +371,7 @@
                         <li {{ (Request::is('*documentation') ? 'class="active"' : '') }}>
                             <a href="{{ url ('documentation') }}"><i class="fa fa-file-word-o fa-fw"></i> Documentation</a>
                         </li>
+                        @endif
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
