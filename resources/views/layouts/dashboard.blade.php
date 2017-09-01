@@ -29,7 +29,7 @@
                     <li><a href="#"><i class="fa fa-gear fa-fw"></i> 設定</a>
                     </li>
                     <li class="divider"></li>
-                    <li><a href="{{url('/user/logout')}}"><i class="fa fa-sign-out fa-fw"></i> 登出</a>
+                    <li><a href="{{url('/auth/logout')}}"><i class="fa fa-sign-out fa-fw"></i> 登出</a>
                     </li>
                 </ul>
                 <!-- /.dropdown-user -->

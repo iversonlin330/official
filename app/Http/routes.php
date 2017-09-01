@@ -18,3 +18,4 @@ Route::controller('forum', 'ForumController');
 Route::controller('game', 'GameController');
 Route::controller('player', 'PlayerController');
 Route::controller('oauth', 'OauthController');
+Route::controller('auth', 'Auth\AuthController');
