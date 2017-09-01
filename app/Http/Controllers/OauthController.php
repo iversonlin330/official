@@ -33,7 +33,7 @@ class OauthController extends Controller
         //} catch (\Exception $e) {
         //    return redirect('/');
         //}
-        dd($providerUser);
+        //dd($providerUser);
         $account = $type .'_' . $providerUser->id;
         $authUser = User::where('account', $account)->first();
         /*
