@@ -17,7 +17,7 @@
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
-            @if(!Auth::check())
+            @if(Auth::check())
               <img style='max-height: 48px;' src="{{Auth::user()->avatar}}" alt="">
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
