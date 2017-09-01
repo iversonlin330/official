@@ -28,12 +28,12 @@ class OauthController extends Controller
 
     public function getOauthBack($type){
         //$providerUser = Socialite::driver($type)->user();
-        try {
+        //try {
             $providerUser = Socialite::driver($type)->user();
-        } catch (\Exception $e) {
-            return redirect('/');
-        }
-        //dd($providerUser);
+        //} catch (\Exception $e) {
+        //    return redirect('/');
+        //}
+        dd($providerUser);
         $account = $type .'_' . $providerUser->id;
         $authUser = User::where('account', $account)->first();
         /*
