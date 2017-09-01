@@ -17,3 +17,4 @@ Route::get('/', function () {
 Route::controller('forum', 'ForumController');
 Route::controller('game', 'GameController');
 Route::controller('player', 'PlayerController');
+Route::controller('oauth', 'OauthController');
