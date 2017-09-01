@@ -35,4 +35,9 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'google' => [
+        'client_id' => '285795926918-qgo3inoucfbtakcq6r3b6p6rd1173j8v.apps.googleusercontent.com',
+        'client_secret' => 'FPcok6Ima1WjeNxac6RsXi46',
+        'redirect' => 'http://cchess.nctu.me/oauth/oauth-back/google',
+    ],
 ];
