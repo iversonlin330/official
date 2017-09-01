@@ -17,9 +17,24 @@
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
-            @if(0)
-            <li><a href="{{ url ('/login') }}">登入/註冊</a></li>
-            @endif
+            @if(!Auth::check())
+              <img style='max-height: 48px;' src="{{Auth::user()->avatar}}" alt="">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
+                   {{Auth::user()->name}} <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="#"><i class="fa fa-user fa-fw"></i> 個人資料</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> 設定</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li><a href="{{url('/user/logout')}}"><i class="fa fa-sign-out fa-fw"></i> 登出</a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
+            @else
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
                     <i class="fa fa-user fa-fw"></i>登入 <i class="fa fa-caret-down"></i>
@@ -34,22 +49,6 @@
                     <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                     </li>
                     @endif
-                </ul>
-                <!-- /.dropdown-user -->
-            </li>
-            @if(Auth::check())
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
-                    <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
-                </a>
-                <ul class="dropdown-menu dropdown-user">
-                    <li><a href="#"><i class="fa fa-user fa-fw"></i> 個人資料</a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> 設定</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li><a href="{{url('/user/logout')}}"><i class="fa fa-sign-out fa-fw"></i> 登出</a>
-                    </li>
                 </ul>
                 <!-- /.dropdown-user -->
             </li>
