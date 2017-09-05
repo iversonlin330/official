@@ -13,6 +13,15 @@
   <meta content="" name="author"/>
 
   <link rel="stylesheet" href="{{ asset("assets/stylesheets/styles.css") }}" />
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105848006-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'UA-105848006-1');
+  </script>
 </head>
 <body>
   @yield('body')
