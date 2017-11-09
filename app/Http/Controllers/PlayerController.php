@@ -22,6 +22,7 @@ class PlayerController extends Controller
     }
 
     public function getView(){
-        return view('player.view');
+        $players = \App\Players::all();
+        return view('player.view',compact('players'));
     }
 }

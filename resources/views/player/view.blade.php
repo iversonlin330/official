@@ -26,21 +26,25 @@
                             <th>Bad</th>
                             <th>Vote Good</th>
                             <th>Vote Bad</th>
+                            <th>Upload</th>
                         </tr>
                     </thead>
                     <tbody>
+                        @foreach($players as $player)
                         <tr>
-                            <td>3000</td>
+                            <td>{{$player->elo}}</td>
                             <td>99%</td>
-                            <td>9</td>
+                            <td>{{$player->D}}</td>
                             <td>HT</td>
                             <td><img style='max-width: 20%;' src="http://3.bp.blogspot.com/-IbEOTNtCMyU/TfCAdHaAxEI/AAAAAAAAA8U/EATib38SSAM/s320/joe-mcelderry.jpg" alt=""></td>
-                            <td>David Lin</td>
+                            <td>{{$player->name}}</td>
                             <td>1285</td>
                             <td>203</td>
                             <td><a class="btn btn-success" href="">Good</a></td>
                             <td><a class="btn btn-danger" href="">Bad</a></td>
+                            <td><a class="btn btn-primary" href="">上傳圖片</a></td>
                         </tr>
+                        @endforeach
                     </tbody>
                 </table>
             </div>
