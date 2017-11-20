@@ -25,4 +25,9 @@ class PlayerController extends Controller
         $players = \App\Players::all();
         return view('player.view',compact('players'));
     }
+	
+	public function getDialog($id){
+        $player = \App\Players::find($id);
+        return view('player.dialog',compact('player'));
+    }
 }

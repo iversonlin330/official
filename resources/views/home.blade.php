@@ -139,7 +139,7 @@
                             <div class="h2">Elo:3000</div>
                             <div class="h2">D:9</div>
                             <div class="h2">TeamID:HT</div>
-                            <div class="h2">Name:林羽揚</div>
+                            <div class="h2">Name:xxx</div>
                         </div>
                     </div>
                 </div>

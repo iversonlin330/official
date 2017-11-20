@@ -1,6 +1,11 @@
 @extends('layouts.plane')
 
 @section('body')
+<div id="ajax-modal" class="modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    @include('layouts.modal')
+  </div>
+</div>
  <div id="wrapper">
 
         <!-- Navigation -->
@@ -287,8 +292,13 @@
                         <li {{ (Request::is('forum') ? 'class="active"' : '') }}>
                             <a href="{{ url ('/forum/view') }}"><i class="fa fa-dashboard fa-fw"></i> 討論區</a>
                         </li>
+						@if(0)
                         <li {{ (Request::is('/') ? 'class="active"' : '') }}>
                             <a href="{{ url ('/game/view') }}"><i class="fa fa-dashboard fa-fw"></i> 棋賽資訊</a>
+                        </li>
+						@endif
+						<li {{ (Request::is('/') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/game/history') }}"><i class="fa fa-dashboard fa-fw"></i> 棋賽資訊</a>
                         </li>
                         <li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
                             <a href="{{ url ('/player/view') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 棋手點評</a>

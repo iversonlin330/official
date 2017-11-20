@@ -24,4 +24,9 @@ class GameController extends Controller
     public function getView(){
         return view('game.view');
     }
+	
+	public function getHistory(){
+		$games = \App\Games::all();
+        return view('game.history',compact('games'));
+    }
 }
