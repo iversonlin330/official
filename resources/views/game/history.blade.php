@@ -31,7 +31,7 @@
 						<td>{{ $game->start_date }}</td>
 						<td>{{ $game->name }}</td>
 						<td>{{ $game->total_bonus }}</td>
-						<td><a href="{{url('/player/dialog/'. $game->champion)}}" data-toggle="modal" data-target="#ajax-modal">{{ $game->player->name }}</a></td>
+						<td><a href="{{url('/player/dialog/'. $game->champion)}}" data-toggle="modal" data-target="#ajax-modal">{{ ($game->player)? $game->player->name : '' }}</a></td>
 						<td>{{ $game->sponsor }}</td>
 					</tr>
 				@endforeach
