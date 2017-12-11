@@ -1,5 +1,5 @@
 @extends('layouts.dashboard')
-@section('page_heading','歷年比賽')
+@section('page_heading','比賽報名')
 @section('section')
 <style>
 .table>tbody>tr>td{
@@ -7,12 +7,14 @@
 }
 </style>
 <div class="col-sm-12">
+	@if(0)
     <div>
         <a class='btn btn-primary'>Upload</a>
     </div><br>
+	@endif
     <div class="panel panel-primary">
         <div class="panel-heading">
-            歷年比賽
+            比賽報名
         </div>
         <div class="panel-body">
             <table class="table table-bordered">
@@ -20,25 +22,37 @@
                     <tr>
                         <th>比賽名稱</th>
                         <th>比賽組別</th>
-                        <th>冠軍</th>
-                        <th>比賽地點</th>
-                        <th>日期</th>
-						<th>主辦單位</th>
-						<th>獎金</th>
+                        <th>總獎金</th>
+                        <th>比賽日期</th>
+                        <th>主辦單位</th>
+                        <th>報名</th>
                     </tr>
                 </thead>
                 <tbody>
-				@foreach($games as $game)
 					<tr>
-						<td>{{ $game->name }}</td>
-						<td>{{ '高段組' }}</td>
-						<td><a href="{{url('/player/dialog/'. $game->champion)}}" data-toggle="modal" data-target="#ajax-modal">{{ ($game->player)? $game->player->name : '' }}</a></td>
-						<td>{{ '台灣' }}</td>
-						<td>{{ $game->start_date }}</td>
-						<td>{{ $game->sponsor }}</td>
-						<td>{{ $game->total_bonus }}</td>
+						<td>觀音盃</td>
+						<td>高段組</td>
+						<td>300,000</td>
+						<td>2018-07-31</td>
+						<td>棋協</td>
+						<td>資格不符</td>
 					</tr>
-				@endforeach
+					<tr>
+						<td>觀音盃</td>
+						<td>段位甲組</td>
+						<td>300,000</td>
+						<td>2018-07-31</td>
+						<td>棋協</td>
+						<td><a href=''>點選報名</a></td>
+					</tr>
+					<tr>
+						<td>觀音盃</td>
+						<td>段位乙組</td>
+						<td>300,000</td>
+						<td>2018-07-31</td>
+						<td>棋協</td>
+						<td>資格不符</td>
+					</tr>
                 </tbody>
             </table>
         </div>

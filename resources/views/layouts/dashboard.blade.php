@@ -17,7 +17,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ url ('') }}">Official</a>
+                <a href="{{ url ('') }}"><img src='official.jpg' style='max-height:50px'></a>
             </div>
             <!-- /.navbar-header -->
 
@@ -289,7 +289,25 @@
                             <!-- /input-group -->
                         </li>
                     @endif
-                        <li {{ (Request::is('forum') ? 'class="active"' : '') }}>
+                        <li {{ (Request::is('/') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/temp1') }}"><i class="fa fa-dashboard fa-fw"></i> 比賽報名</a>
+                        </li>
+						<li {{ (Request::is('/') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/temp2') }}"><i class="fa fa-dashboard fa-fw"></i> 課程報名</a>
+                        </li>
+						<li {{ (Request::is('/') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/temp3') }}"><i class="fa fa-dashboard fa-fw"></i> 棋手隊伍</a>
+                        </li>
+						<li {{ (Request::is('/') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/game/view') }}"><i class="fa fa-dashboard fa-fw"></i> 領先排行</a>
+                        </li>
+						<li {{ (Request::is('/') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/temp5') }}"><i class="fa fa-dashboard fa-fw"></i> 棋賽速遞</a>
+                        </li>
+						<li {{ (Request::is('/') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/game/history') }}"><i class="fa fa-dashboard fa-fw"></i> 歷年比賽</a>
+                        </li>
+						<li {{ (Request::is('forum') ? 'class="active"' : '') }}>
                             <a href="{{ url ('/forum/view') }}"><i class="fa fa-dashboard fa-fw"></i> 討論區</a>
                         </li>
 						@if(0)
