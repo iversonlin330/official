@@ -1,25 +1,34 @@
 @extends('layouts.dashboard')
-@section('page_heading','棋手隊伍')
+@section('page_heading','棋手資訊')
 @section('section')
 <style>
 .table>tbody>tr>td{
     vertical-align: baseline;
 }
+.reward-group .btn {
+    margin-bottom: 5px; 
+}
 </style>
 <div class="col-md-12">
-	<div class="col-md-4">
+	<div class="col-md-2">
 			<img style='max-width: 100%;' src="http://3.bp.blogspot.com/-IbEOTNtCMyU/TfCAdHaAxEI/AAAAAAAAA8U/EATib38SSAM/s320/joe-mcelderry.jpg" alt="">
 	</div>
-	<div class="col-md-4">
-		<div class="h2">姓名:林XX</div>
-		<div class="h2">段位(升段年):9(2017)3000</div>
-		<div class="h2">出生時:1990/5/5</div>
-		<div class="h2">出生地:台灣</div>
-		<div class="h2">大學:台灣大學</div>
-		<div class="h2">研究所:台灣大學</div>
+	<div class="col-md-3">
+		<div class="h5">姓名:林XX</div>
+		<div class="h5">段位(升段年):9(2017)</div>
+		<div class="h5">出生時:1990/5/5</div>
+		<div class="h5">出生地:台灣</div>
+		<div class="h5">大學:台灣大學</div>
+		<div class="h5">研究所:台灣大學</div>
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-7 reward-group">
+		<a class='btn btn-warning'>2006-新店盃-冠軍</a>
+		<a class='btn btn-warning'>2008-觀音盃-冠軍</a>
+		<a class='btn btn-default'>2010-觀音盃-第八名</a>
+		<a class='btn btn-warning'>2011-觀音盃-亞軍</a>
+		@if(0)
 		<div class="h2">觀音盃(2011)<br>勝率王</div>
+	@endif
 	</div>
 </div>
 

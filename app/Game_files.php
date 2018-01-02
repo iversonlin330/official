@@ -4,14 +4,14 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Games extends Model
+class Game_files extends Model
 {
     /**
      * The database table used by the model.
      *
      * @var string
      */
-    protected $table = 'games';
+    protected $table = 'game_files';
 
     /**
      * The attributes that are mass assignable.
@@ -23,13 +23,5 @@ class Games extends Model
 	
 	public function player(){
 		return $this->hasOne('\App\Players', 'id', 'champion');
-	}
-	
-	public function files(){
-		return $this->hasMany('\App\Game_files', 'game_id', 'id');
-	}
-	
-	public function groups(){
-		return $this->hasMany('\App\Game_groups', 'game_id', 'id');
 	}
 }

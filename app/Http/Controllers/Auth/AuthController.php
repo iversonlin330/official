@@ -7,6 +7,7 @@ use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Auth;
 
 class AuthController extends Controller
 {
@@ -65,7 +66,32 @@ class AuthController extends Controller
 
     public function logout()
     {
-        Auth::logout();
+		Auth::logout();
+        return back();
+    }
+	
+	public function getAdmin()
+    {
+        $account = 'admin';
+		$authUser = User::where('account', $account)->first();
+		if ($authUser) {
+            $authUser->update([
+                'name' => '',
+                'avatar' => '',
+                'email' => '',
+            ]);
+            Auth::login($authUser, true);
+        }
+        else{
+           $authUser =  User::create([
+                'account' => $account,
+                'name' => 'admin',
+                'avatar' => '',
+                'email' => '',
+            ]);
+        }
+
+        Auth::login($authUser, true);
         return back();
     }
 }

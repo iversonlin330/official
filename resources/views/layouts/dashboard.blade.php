@@ -274,7 +274,7 @@
             <!-- /.navbar-top-links -->
 
             <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
+                <div class="sidebar-nav navbar-collapse collapse">
                     <ul class="nav" id="side-menu">
                     @if(0)
                         <li class="sidebar-search">
@@ -322,6 +322,14 @@
                             <a href="{{ url ('/player/view') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 棋手點評</a>
                             <!-- /.nav-second-level -->
                         </li>
+						@if(Auth::check())
+							@if(Auth::user()->role > 0)
+							<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
+								<a href="{{ url ('/game/upload') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 上傳簡章</a>
+								<!-- /.nav-second-level -->
+							</li>
+							@endif
+						@endif
                         @if(0)
                         <li {{ (Request::is('*tables') ? 'class="active"' : '') }}>
                             <a href="{{ url ('') }}"><i class="fa fa-table fa-fw"></i> </a>
@@ -407,12 +415,14 @@
         </nav>
 
         <div id="page-wrapper">
-       <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">@yield('page_heading')</h1>
-                </div>
-                <!-- /.col-lg-12 -->
-           </div>
+		@if(!Request::is('/'))
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header">@yield('page_heading')</h1>
+			</div>
+			<!-- /.col-lg-12 -->
+	    </div>
+		@endif
       <div class="row">  
         @yield('section')
 

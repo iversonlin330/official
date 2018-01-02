@@ -11,9 +11,11 @@
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <meta content="" name="description"/>
   <meta content="" name="author"/>
-
+  <meta http-equiv="Content-Type" content="text/html" charset=utf-8">
+	
   <link rel="stylesheet" href="{{ asset("assets/stylesheets/styles.css") }}" />
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" type="text/css"/>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -29,6 +31,7 @@
 <body>
   @yield('body')
   <script src="{{ asset("assets/scripts/frontend.js") }}" type="text/javascript"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.min.js"></script>
   @yield('script')
 </body>
 </html>
