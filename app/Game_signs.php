@@ -4,14 +4,14 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Game_groups extends Model
+class Game_signs extends Model
 {
     /**
      * The database table used by the model.
      *
      * @var string
      */
-    protected $table = 'game_groups';
+    protected $table = 'game_signs';
 
     /**
      * The attributes that are mass assignable.
@@ -29,7 +29,7 @@ class Game_groups extends Model
 		return $this->hasOne('\App\Games', 'id', 'game_id');
 	}
 	
-	public function signs(){
-		return $this->hasMany('\App\Game_signs', 'group_id', 'id');
+	public function group(){
+		return $this->hasOne('\App\Game_groups', 'id', 'group_id');
 	}
 }

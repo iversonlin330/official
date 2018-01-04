@@ -35,7 +35,13 @@
 						<td>300,000</td>
 						<td>2018-07-31</td>
 						<td>棋協</td>
-						<td>資格不符</td>
+						<td>
+						@if(is_null(Auth::user()->player_id))
+							<a href="{{url('/user/verify')}}">請先完善基本資料</a>
+						@else
+							<a href=''>點選報名</a>
+						@endif
+						</td>
 					</tr>
 					<tr>
 						<td>觀音盃</td>

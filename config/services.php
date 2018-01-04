@@ -40,4 +40,10 @@ return [
         'client_secret' => 'FPcok6Ima1WjeNxac6RsXi46',
         'redirect' => 'http://cchess.nctu.me/oauth/oauth-back/google',
     ],
+	
+	'facebook' => [
+        'client_id' => '1946376638913233',
+        'client_secret' => '6a957204c0f9e4a8eb650e2c1e68609d',
+        'redirect' => 'http://cchess.nctu.me/oauth/oauth-back/facebook',
+    ],
 ];

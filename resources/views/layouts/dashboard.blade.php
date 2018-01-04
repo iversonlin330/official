@@ -17,28 +17,46 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="{{ url ('') }}"><img src='official.jpg' style='max-height:50px'></a>
+                <a href="{{ url ('') }}"><img src="{{url('/official.jpg')}}" style='max-height:50px;border-radius:50%;'></a>
             </div>
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
             @if(Auth::check())
-              <img style='max-height: 48px;' src="{{Auth::user()->avatar}}" alt="">
-              <li class="dropdown">
+				@if(is_null(Auth::user()->player_id))
+				<li>
+					<a href="{{url('/user/verify')}}">請先完善基本資料</a>
+				</li>
+				@endif
+				<img style='max-height: 48px;border-radius:50%;' src="{{Auth::user()->avatar}}" alt="">
+				<li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
-                   {{Auth::user()->name}} <i class="fa fa-caret-down"></i>
+				@if(is_null(Auth::user()->player_id))
+					<button type="button" class="btn btn-danger btn-circle"><i class="fa fa-times"></i></button>
+				@else
+					@if(Auth::user()->is_verify == 1)
+						<button type="button" class="btn btn-warning btn-circle"><i class="fa fa-star"></i></button>
+					@else
+						<button type="button" class="btn btn-success btn-circle"><i class="fa fa-check"></i></button>
+					@endif
+				@endif
+				&nbsp{{Auth::user()->name}} <i class="fa fa-caret-down"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-user">
-                    <li><a href="#"><i class="fa fa-user fa-fw"></i> 個人資料</a>
+                    <li><a href="{{url('/user/game')}}"><i class="fa fa-user fa-fw"></i> 我的比賽</a>
+                    </li>
+					@if(0)
+					<li><a href="#"><i class="fa fa-user fa-fw"></i> 個人資料</a>
                     </li>
                     <li><a href="#"><i class="fa fa-gear fa-fw"></i> 設定</a>
                     </li>
+					@endif
                     <li class="divider"></li>
                     <li><a href="{{url('/auth/logout')}}"><i class="fa fa-sign-out fa-fw"></i> 登出</a>
                     </li>
                 </ul>
                 <!-- /.dropdown-user -->
-            </li>
+				</li>
             @else
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
@@ -290,7 +308,7 @@
                         </li>
                     @endif
                         <li {{ (Request::is('/') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('/temp1') }}"><i class="fa fa-dashboard fa-fw"></i> 比賽報名</a>
+                            <a href="{{ url ('/game/sign') }}"><i class="fa fa-dashboard fa-fw"></i> 比賽報名</a>
                         </li>
 						<li {{ (Request::is('/') ? 'class="active"' : '') }}>
                             <a href="{{ url ('/temp2') }}"><i class="fa fa-dashboard fa-fw"></i> 課程報名</a>

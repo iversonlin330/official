@@ -32,4 +32,12 @@ class Games extends Model
 	public function groups(){
 		return $this->hasMany('\App\Game_groups', 'game_id', 'id');
 	}
+	
+	public function signs(){
+		return $this->hasMany('\App\Game_signs', 'game_id', 'id');
+	}
+	
+	public function has_sign($user_id){
+		return $this->hasOne('\App\Game_signs', 'game_id', 'id')->where('user_id',$user_id);
+	}
 }

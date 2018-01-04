@@ -19,6 +19,7 @@ Route::controller('game', 'GameController');
 Route::controller('player', 'PlayerController');
 Route::controller('oauth', 'OauthController');
 Route::controller('auth', 'Auth\AuthController');
+Route::controller('user', 'UserController');
 Route::get('temp1', function(){
 	return view('temp.temp1');
 });

@@ -108,4 +108,29 @@ class GameController extends Controller
 		$game = \App\Games::find($id);
         return view('game.overview',compact('game'));
     }
+	
+	public function getSign(){
+		$user = Auth::user();
+		$games = \App\Games::all();
+        return view('game.sign',compact('games','user'));
+    }
+	
+	public function getSignUp($group_id){
+		$group = \App\Game_groups::find($group_id);
+        return view('game.sign-up',compact('group'));
+    }
+	
+	public function postSignUp($group_id){
+		$group = \App\Game_groups::find($group_id);
+		$user = Auth::user();
+		
+		$game_sign = new \App\Game_signs;
+		$game_sign->game_id = $group->game_id;
+		$game_sign->group_id = $group_id;
+		$game_sign->player_id = $user->player_id;
+		$game_sign->user_id = $user->id;
+		$game_sign->save();
+		
+        return back();
+    }
 }
