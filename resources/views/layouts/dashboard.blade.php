@@ -346,6 +346,19 @@
 								<a href="{{ url ('/game/upload') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 上傳簡章</a>
 								<!-- /.nav-second-level -->
 							</li>
+							<li>
+								<a href="#"><i class="fa fa-wrench fa-fw"></i> 管理者功能<span class="fa arrow"></span></a>
+								<ul class="nav nav-second-level collapse">
+									<li>
+										<a href="{{ url ('/game/upload') }}">上傳簡章</a>
+										<!-- /.nav-second-level -->
+									</li>
+									<li>
+										<a href="{{ url ('/game/manage/ongoing') }}">比賽管理</a>
+									</li>
+								</ul>
+								<!-- /.nav-second-level -->
+							</li>
 							@endif
 						@endif
                         @if(0)

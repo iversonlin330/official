@@ -21,8 +21,12 @@ class Game_signs extends Model
     //protected $fillable = ['name', 'email', 'password'];
     protected $guarded = ['id','created_at','updated_at'];
 	
+	public function user(){
+		return $this->hasOne('\App\User', 'id', 'user_id');
+	}
+	
 	public function player(){
-		return $this->hasOne('\App\Players', 'id', 'champion');
+		return $this->hasOne('\App\Players', 'id', 'player_id');
 	}
 	
 	public function game(){

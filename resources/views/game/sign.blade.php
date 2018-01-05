@@ -27,7 +27,9 @@
 						<th>報名日期</th>
 						@if(0)
                         <th>主辦單位</th>
-					@endif
+						<th>執行單位</th>
+						<th>贊助單位</th>
+						@endif
 						<th>段位限制</th>
 						<th>名額</th>
                         <th>報名</th>

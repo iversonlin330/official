@@ -24,7 +24,9 @@ elixir(function(mix) {
     mix.scripts([
         'bower_components/jquery/dist/jquery.min.js',
         'bower_components/bootstrap/dist/js/bootstrap.js',
+		'bower_components/metisMenu/dist/metisMenu.js',
         'bower_components/datatables.net/js/jquery.datatables.min.js',
         'bower_components/datatables.net-bs/js/datatables.bootstrap.min.js',
+		'resources/js/sb-admin-2.js',
     ], 'public/assets/scripts/frontend.js', './');
 });

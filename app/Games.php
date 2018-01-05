@@ -34,7 +34,7 @@ class Games extends Model
 	}
 	
 	public function signs(){
-		return $this->hasMany('\App\Game_signs', 'game_id', 'id');
+		return $this->hasMany('\App\Game_signs', 'game_id', 'id')->orderBy('group_id');
 	}
 	
 	public function has_sign($user_id){

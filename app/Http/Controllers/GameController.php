@@ -133,4 +133,21 @@ class GameController extends Controller
 		
         return back();
     }
+	
+	public function getManage($status){
+		if($status == 'ongoing'){
+			$games = \App\Games
+			::where('game_date','>',date('Y-m-d'))
+			->get();
+		}else{
+			$games = \App\Games::all();
+		}
+        
+        return view('game.manage',compact('games'));
+    }
+	
+	public function getSignDetail($game_id){
+		$game = \App\Games::find($game_id);
+        return view('game.sign-detail',compact('game'));
+    }
 }
