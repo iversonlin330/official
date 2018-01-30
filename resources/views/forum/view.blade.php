@@ -18,7 +18,7 @@
             <footer>David  <cite title="Source Title">於 35週前</cite></footer>
             </blockquote>
 		@endif
-			<div class="fb-comments" data-href="{{Request::url()}}" data-numposts="5"></div>
+			<div class="fb-comments" data-href="{{Request::url()}}" data-width="100%" data-numposts="5"></div>
         </div>
     </div>
 </div>
