@@ -12,7 +12,11 @@ class Game_results extends Model
      * @var string
      */
     protected $table = 'game_results';
-
+	
+	protected $casts = [
+        'rank' => 'integer',
+    ];
+	
     /**
      * The attributes that are mass assignable.
      *
