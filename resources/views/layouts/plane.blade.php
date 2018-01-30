@@ -12,6 +12,8 @@
   <meta content="" name="description"/>
   <meta content="" name="author"/>
   <meta http-equiv="Content-Type" content="text/html" charset=utf-8">
+  <meta property="fb:app_id" content="1946376638913233" />
+  <meta property="fb:admins" content="1193482045"/>
 	
   <link rel="stylesheet" href="{{ asset("assets/stylesheets/styles.css") }}" />
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
