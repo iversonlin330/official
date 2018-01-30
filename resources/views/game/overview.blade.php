@@ -28,15 +28,33 @@
 					</tr>
 					<tr>
 						<td style="font-weight: bold;width:25%;">主辦單位</td>
-						<td style="width:75%;">{{$game->organizer}}</td>
+						<td style="width:75%;">
+							<ul>
+								@foreach($game->organizers as $organizer)
+									<li><a href="#">{{$organizer->organizer->name}}</a></li>
+								@endforeach
+							<ul>
+						</td>
 					</tr>
 					<tr>
 						<td style="font-weight: bold;width:25%;">執行單位</td>
-						<td style="width:75%;">{{$game->co_organizer}}</td>
+						<td style="width:75%;">
+							<ul>
+								@foreach($game->co_organizers as $co_organizer)
+									<li><a href="#">{{$co_organizer->co_organizer->name}}</a></li>
+								@endforeach
+							<ul>
+						</td>
 					</tr>
 					<tr>
 						<td style="font-weight: bold;width:25%;">贊助／協辦單位</td>
-						<td style="width:75%;">{{$game->sponsor}}</td>
+						<td style="width:75%;">
+							<ul>
+								@foreach($game->sponsors as $sponsor)
+									<li><a href="#">{{$sponsor->sponsor->name}}</a></li>
+								@endforeach
+							<ul>
+						</td>
 					</tr>
 					<tr>
 						<td style="font-weight: bold;width:25%;">報名開始日期</td>

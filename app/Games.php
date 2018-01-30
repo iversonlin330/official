@@ -40,4 +40,16 @@ class Games extends Model
 	public function has_sign($user_id){
 		return $this->hasOne('\App\Game_signs', 'game_id', 'id')->where('user_id',$user_id);
 	}
+	
+	public function organizers(){
+		return $this->hasMany('\App\Game_organizers', 'game_id', 'id');
+	}
+	
+	public function co_organizers(){
+		return $this->hasMany('\App\Game_co_organizers', 'game_id', 'id');
+	}
+	
+	public function sponsors(){
+		return $this->hasMany('\App\Game_sponsors', 'game_id', 'id');
+	}
 }

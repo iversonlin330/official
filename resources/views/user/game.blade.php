@@ -19,7 +19,7 @@
                         <th>比賽組別</th>
                         <th>總獎金</th>
                         <th>比賽日期</th>
-						<th>報名日期</th>
+						<th>報名期限</th>
                     </tr>
                 </thead>
 				<tbody>

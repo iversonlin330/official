@@ -28,7 +28,9 @@ class GameController extends Controller
     }
 	
 	public function getHistory(){
-		$games = \App\Games::all();
+		$games = \App\Games
+			::where('end_date', '<' , date('Y-m-d'))
+			->get();
         return view('game.history',compact('games'));
     }
 	
@@ -111,7 +113,9 @@ class GameController extends Controller
 	
 	public function getSign(){
 		$user = Auth::user();
-		$games = \App\Games::all();
+		$games = \App\Games
+			::where('end_date', '>' , date('Y-m-d'))
+			->get();
         return view('game.sign',compact('games','user'));
     }
 	

@@ -43,9 +43,21 @@
 							<td>{{ $game->end_date }}</td>
 							<td>{{ $game->game_date }}</td>
 							<td>{{ $game->place }}</td>
-							<td>{{ $game->organizer }}</td>
-							<td>{{ $game->co_organizer }}</td>
-							<td>{{ $game->sponsor }}</td>
+							<td>
+								@foreach($game->organizers as $organizer)
+									<a href="#">{{$organizer->organizer->name}}</a>
+								@endforeach
+							</td>
+							<td>
+								@foreach($game->co_organizers as $co_organizer)
+									<a href="#">{{$co_organizer->co_organizer->name}}</a>
+								@endforeach
+							</td>
+							<td>
+								@foreach($game->sponsors as $sponsor)
+									<a href="#">{{$sponsor->sponsor->name}}</a>
+								@endforeach
+							</td>
 							<th><a href="{{('/game/overview/'.$game->id)}}" class="btn btn-xs btn-primary">觀看簡章</a></th>
 							<th><a href="{{('/game/add-group/'.$game->id)}}" class="btn btn-xs btn-primary">新增組別</a></th>
 						</tr>
