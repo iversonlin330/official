@@ -292,7 +292,7 @@
             <!-- /.navbar-top-links -->
 
             <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse collapse">
+                <div class="sidebar-nav navbar-collapse collapse" style="margin-top: 10px;">
                     <ul class="nav" id="side-menu">
                     @if(0)
                         <li class="sidebar-search">
@@ -307,6 +307,7 @@
                             <!-- /input-group -->
                         </li>
                     @endif
+					@if(0)
                         <li {{ (Request::is('/') ? 'class="active"' : '') }}>
                             <a href="{{ url ('/game/sign') }}"><i class="fa fa-dashboard fa-fw"></i> 比賽報名</a>
                         </li>
@@ -336,11 +337,23 @@
 						<li {{ (Request::is('/') ? 'class="active"' : '') }}>
                             <a href="{{ url ('/game/history') }}"><i class="fa fa-dashboard fa-fw"></i> 棋賽資訊</a>
                         </li>
-                        <li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('/player/view') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 棋手點評</a>
+						@endif
+						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/game/sign-temp') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 簡章</a>
                             <!-- /.nav-second-level -->
                         </li>
-						@if(Auth::check())
+						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/game/highlight') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 賽事花絮</a>
+                            <!-- /.nav-second-level -->
+                        </li>
+						<li {{ (Request::is('forum') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/forum/view') }}"><i class="fa fa-dashboard fa-fw"></i> 討論區</a>
+                        </li>
+                        <li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/player/view') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 選手排行榜</a>
+                            <!-- /.nav-second-level -->
+                        </li>
+						@if(Auth::check() && 0)
 							@if(Auth::user()->role > 0)
 							<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
 								<a href="{{ url ('/game/upload') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 上傳簡章</a>

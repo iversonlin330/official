@@ -154,4 +154,49 @@ class GameController extends Controller
 		$game = \App\Games::find($game_id);
         return view('game.sign-detail',compact('game'));
     }
+	
+	public function getElo(){
+        return view('game.elo',compact(''));
+    }
+	
+	public function getSignTemp(){
+		$user = Auth::user();
+		$games = \App\Game_temps
+			//::where('end_date', '>' , date('Y-m-d'))
+			::orderBy('game_date')
+			->get();
+        return view('game.sign-temp',compact('games','user'));
+    }
+	
+	public function getSignTempAdd(){
+		$user = Auth::user();
+        return view('game.sign-temp-add',compact('games','user'));
+    }
+	
+	public function postSignTempAdd(Request $request){
+		$user = Auth::user();
+		$data = $request->all();
+		$data['user_id'] = $user->account;
+		$game_temp = new \App\Game_temps;
+		$game_temp->fill($data);
+		$game_temp->save();
+		
+		return redirect('game/sign-temp');
+        //return view('game.sign-temp-add',compact('games','user'));
+    }
+	
+	public function getHighlight(){
+		$user = Auth::user();
+        return view('game.highlight',compact('user'));
+    }
+	
+	public function getHighlightAdd(){
+		$user = Auth::user();
+        return view('game.highlight-add',compact('user'));
+    }
+	
+	public function getHighlightDetail(){
+		$user = Auth::user();
+        return view('game.highlight-detail',compact('user'));
+    }
 }

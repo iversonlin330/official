@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Route::get('/', function () {
+    // return view('home');
+// });
+Route::get('/','HomeController@index');
 Route::controller('forum', 'ForumController');
 Route::controller('game', 'GameController');
 Route::controller('player', 'PlayerController');

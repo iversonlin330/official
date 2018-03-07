@@ -1,5 +1,5 @@
 @extends('layouts.dashboard')
-@section('page_heading','Player')
+@section('page_heading','選手排行榜')
 @section('section')
 <style>
 .table>tbody>tr>td{
@@ -10,23 +10,21 @@
     <div class="col-sm-12">
         <div class="panel panel-primary">
             <div class="panel-heading">
-                Player info
+                選手排行榜
             </div>
             <div class="panel-body">
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th>EloRating</th>
-                            <th>Win Rate</th>
-                            <th>D</th>
-                            <th>Team</th>
-                            <th>Pic</th>
-                            <th>Name</th>
-                            <th>Good</th>
-                            <th>Bad</th>
-                            <th>Vote Good</th>
-                            <th>Vote Bad</th>
-                            <th>Upload</th>
+                            <th>等級分</th>
+                            <th>勝率</th>
+                            <th>段位</th>
+                            <th>單位</th>
+                            <th>大頭照</th>
+                            <th>姓名</th>
+                            <th>加油支持</th>
+                            <th>加油支持</th>
+                            <th>上傳大頭貼</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -39,9 +37,7 @@
                             <td><img style='max-width: 20%;' src="http://3.bp.blogspot.com/-IbEOTNtCMyU/TfCAdHaAxEI/AAAAAAAAA8U/EATib38SSAM/s320/joe-mcelderry.jpg" alt=""></td>
                             <td>{{$player->name}}</td>
                             <td>1285</td>
-                            <td>203</td>
-                            <td><a class="btn btn-success" href="">Good</a></td>
-                            <td><a class="btn btn-danger" href="">Bad</a></td>
+                            <td><a class="btn btn-success" href="">加油支持</a></td>
                             <td><a class="btn btn-primary" href="">上傳圖片</a></td>
                         </tr>
                         @endforeach

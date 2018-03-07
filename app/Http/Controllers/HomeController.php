@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
-class ForumController extends Controller
+class HomeController extends Controller
 {
 
     /**
@@ -25,11 +25,7 @@ class ForumController extends Controller
         return view('forum.view');
     }
 	
-	public function getArticleList(){
-        return view('forum.article-list');
-    }
-	
-	public function getArticleDetail(){
-        return view('forum.article-detail');
+	 public function index(){
+        return view('home_temp');
     }
 }
