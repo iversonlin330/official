@@ -11,9 +11,9 @@
     <div class="col-sm-12">
 	<br>
 	<iframe width="640" height="360" src="https://www.youtube.com/embed/RkgHSqdMCCI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-	@if(0)
-	<iframe  src="https://www.youtube.com/live_chat?v=RkgHSqdMCCI&embed_domain=localhost" height="360">
-@endif
+	@if(0)@endif
+	<iframe  src="https://www.youtube.com/live_chat?v=RkgHSqdMCCI&embed_domain=cchess.nctu.me" height="360">
+
 	</div>
 </div>
 	<div class="row">
