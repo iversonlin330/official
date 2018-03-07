@@ -12,8 +12,7 @@
 	<br>
 	<iframe width="640" height="360" src="https://www.youtube.com/embed/RkgHSqdMCCI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 	@if(0)@endif
-	<iframe  src="https://www.youtube.com/live_chat?v=RkgHSqdMCCI&embed_domain=cchess.nctu.me" height="360">
-
+	<iframe id="chat" src="https://www.youtube.com/live_chat?v=RkgHSqdMCCI&embed_domain=cchess.nctu.me" height="360"></iframe>
 	</div>
 </div>
 	<div class="row">
@@ -69,22 +68,7 @@
     </div>
 	@section('script')
 	<script>	
-	$('.carousel').carousel({
-		interval: false
-	});
-	$('.carousel .item').each(function(){
-	  var next = $(this).next();
-	  if (!next.length) {
-		next = $(this).siblings(':first');
-	  }
-	  next.children(':first-child').clone().appendTo($(this));
-	  
-	  if (next.next().length>0) {
-		next.next().children(':first-child').clone().appendTo($(this));
-	  } else {
-		$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-	  }
-	});
+	
 	</script>
 	@stop
 @stop
