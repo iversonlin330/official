@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
-class HomeController extends Controller
+class VideoController extends Controller
 {
 
     /**
@@ -42,18 +42,26 @@ class HomeController extends Controller
 	}
 	
     public function getView(){
-        return view('forum.view');
+		$videos = \App\Videos::all();
+		$data = $videos;
+		foreach($data as $key => $val){
+			$item = $this->youtube_info($data[$key]['youtube_id']);
+			if(!$item)
+				continue;
+			$item = $item[0];
+			$data[$key]['status'] = $item->snippet->liveBroadcastContent;
+			$data[$key]['viewCount'] = $item->statistics->viewCount;
+			$data[$key]['likeCount'] = $item->statistics->likeCount;
+			$data[$key]['commentCount'] = $item->statistics->commentCount;
+			// if($data[$key]['pic_id']){
+				// $fs = new FileserverController;
+				// $data[$key]['pic_url'] = $fs->Path_by_Download($data[$key]['pic_id']);
+			// }else{
+			$data[$key]['pic_url'] = "https://i.ytimg.com/vi/".$data[$key]['youtube_id']."/maxresdefault.jpg";
+			//}
+		}
+		$videos = $data;
+        return view('video.view',compact('videos'));
     }
 	
-	 public function index(){
-		$video = \App\Videos::where('is_home',1)->first();
-		$status = 'none';
-		if($video){
-			$item = $this->youtube_info($video->youtube_id);
-			$item = $item[0];
-			$status = $item->snippet->liveBroadcastContent;
-		}
-		
-        return view('home_temp',compact('video','status'));
-    }
 }

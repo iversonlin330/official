@@ -21,6 +21,7 @@ Route::controller('player', 'PlayerController');
 Route::controller('oauth', 'OauthController');
 Route::controller('auth', 'Auth\AuthController');
 Route::controller('user', 'UserController');
+Route::controller('video', 'VideoController');
 Route::get('temp1', function(){
 	return view('temp.temp1');
 });

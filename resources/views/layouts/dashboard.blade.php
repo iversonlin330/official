@@ -292,7 +292,7 @@
             <!-- /.navbar-top-links -->
 
             <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse collapse" style="margin-top: 10px;">
+                <div class="sidebar-nav navbar-collapse collapse">
                     <ul class="nav" id="side-menu">
                     @if(0)
                         <li class="sidebar-search">
@@ -339,11 +339,15 @@
                         </li>
 						@endif
 						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('/game/sign-temp') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 簡章</a>
+                            <a href="{{ url ('/game/sign-temp') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 比賽資訊</a>
                             <!-- /.nav-second-level -->
                         </li>
 						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
                             <a href="{{ url ('/game/highlight') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 賽事花絮</a>
+                            <!-- /.nav-second-level -->
+                        </li>
+						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/video/view') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 影片專區</a>
                             <!-- /.nav-second-level -->
                         </li>
 						<li {{ (Request::is('forum') ? 'class="active"' : '') }}>

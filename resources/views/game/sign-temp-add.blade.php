@@ -1,5 +1,5 @@
 @extends('layouts.dashboard')
-@section('page_heading','新增簡章')
+@section('page_heading','新增比賽資訊')
 @section('section')
 <style>
 .table>tbody>tr>td{
@@ -9,7 +9,7 @@
 <div class="col-sm-12">
     <div class="panel panel-primary">
         <div class="panel-heading">
-            新增簡章
+            新增比賽資訊
         </div>
         <div class="panel-body">
             <form class="form-horizontal" action="{{Request::url()}}" method='post' enctype="multipart/form-data">

@@ -1,5 +1,5 @@
 @extends('layouts.dashboard')
-@section('page_heading','簡章')
+@section('page_heading','比賽資訊')
 @section('section')
 <style>
 .table>tbody>tr>td{
@@ -9,12 +9,12 @@
 <div class="col-sm-12">
 	@if(Auth::user())
     <div>
-        <a class='btn btn-primary' href="{{url('/game/sign-temp-add')}}">新增簡章</a>
+        <a class='btn btn-primary' href="{{url('/game/sign-temp-add')}}">新增比賽資訊</a>
     </div><br>
 	@endif
     <div class="panel panel-primary">
         <div class="panel-heading">
-            簡章
+            比賽資訊
         </div>
         <div class="panel-body">
             <table class="table table-bordered">
@@ -27,6 +27,9 @@
 						<th>比賽地點</th>
 						<th>簡章連結</th>
 						<th>修改者</th>
+						@if(Auth::user())
+						<th>修改</th>
+						@endif
                     </tr>
                 </thead>
                 <tbody>
@@ -39,6 +42,9 @@
 							<td>{{$game->place}}</td>
 							<td><a href="{{$game->link}}">{{$game->link}}</a></td>
 							<td title="{{$game->user->account}}">{{$game->user->name}}</td>
+							@if(Auth::user())
+							<td><a class="btn btn-primary">修改</a></td>
+							@endif
 						</tr>
 					@endforeach
                 </tbody>
