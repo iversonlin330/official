@@ -36,40 +36,56 @@
                     <table class="table table-bordered">
 						<thead>
 							<tr>
-								<th>排名</th>
+								<th>目前排名</th>
 								<th>棋手姓名</th>
 								<th>等級分</th>
 								<th>局數</th>
 								<th>勝局</th>
 								<th>敗局</th>
 								<th>和局</th>
-								<th>紅方</th>
-								<th>勝</th>
-								<th>敗</th>
-								<th>和</th>
-								<th>黑方</th>
-								<th>勝</th>
-								<th>敗</th>
-								<th>和</th>
+								<th>總勝率</th>
+								<th>先手勝率</th>
+								<th>後手勝率</th>
+								<th>等級分變化</th>
+								<th>最後對弈時間</th>
 							</tr>
 						</thead>
 						<tbody>
+						<?php $i=0; ?>
+						@foreach($players as $player)
+							<?php $i++; ?>
 							<tr>
-								<td>1</td>
-								<td><a href="{{url('/temp31')}}">陳國興</a></td>
-								<td>1740</td>
-								<td>0</td>
-								<td>0</td>
-								<td>0</td>
-								<td>0</td>
-								<td>0</td>
-								<td>0</td>
-								<td>0</td>
-								<td>0</td>
-								<td>0</td>
-								<td>0</td>
-								<td>0</td>
+								<td>{{ $i }}</td>
+								<td><a href="{{url('/temp31')}}">{{$player->name}} ({{$player->team}})</a></td>
+								<td>{{$player->glicko}}</td>
+								<?php $total= $player->offensive_win + $player->defensive_win + $player->offensive_lose + $player->defensive_lose + $player->offensive_draw + $player->defensive_draw; ?>
+								<td>{{$total}}</td>
+								<td>{{$player->offensive_win + $player->defensive_win}}</td>
+								<td>{{$player->offensive_lose + $player->defensive_lose}}</td>
+								<td>{{$player->offensive_draw + $player->defensive_draw}}</td>
+								
+								<td>
+								@if($total != 0)
+								{{number_format((($player->offensive_win + $player->defensive_win)*2+($player->offensive_draw + $player->defensive_draw)*1)/($total*2)*100,2)}}%
+								@else
+									0%
+								@endif
+								</td>
+								<td>@if($total != 0)								{{number_format(($player->offensive_win*2+$player->offensive_draw*1)/($total*2)*100,2)}}%
+								@else
+									0%
+								@endif
+								</td>
+								<td>
+								@if($total != 0)									{{number_format(($player->defensive_win*2+$player->defensive_draw*1)/($total*2)*100,2)}}%
+								@else
+									0%
+								@endif
+								</td>
+								<td>{{$player->glicko_change}}</td>
+								<td>{{$player->last_race_date}}</td>
 							</tr>
+						@endforeach
 						</tbody>
 					</table>
                 </div>

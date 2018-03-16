@@ -53,7 +53,9 @@ class HomeController extends Controller
 			$item = $item[0];
 			$status = $item->snippet->liveBroadcastContent;
 		}
+		$players = \App\Player_new::orderBy('glicko','desc')->get();
 		
-        return view('home_temp',compact('video','status'));
+		
+        return view('home_temp',compact('video','status','players'));
     }
 }
