@@ -68,7 +68,6 @@
 								<td>{{$player->offensive_win + $player->defensive_win}}</td>
 								<td>{{$player->offensive_lose + $player->defensive_lose}}</td>
 								<td>{{$player->offensive_draw + $player->defensive_draw}}</td>
-								
 								<td>
 								@if($total != 0)
 									{{number_format((($player->offensive_win + $player->defensive_win)*2+($player->offensive_draw + $player->defensive_draw)*1)/($total*2)*100,2)}}%
@@ -76,14 +75,15 @@
 									0%
 								@endif
 								</td>
-								<td>@if($total != 0)								
+								<td>
+								@if($offensive != 0)								
 									{{number_format(($player->offensive_win*2+$player->offensive_draw*1)/($offensive*2)*100,2)}}%
 								@else
 									0%
 								@endif
 								</td>
 								<td>
-								@if($total != 0)								
+								@if($defensive != 0)								
 									{{number_format(($player->defensive_win*2+$player->defensive_draw*1)/($defensive*2)*100,2)}}%
 								@else
 									0%
