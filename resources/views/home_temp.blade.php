@@ -96,7 +96,7 @@
 								@else
 									<td>{{$player->glicko_change}}</td>
 								@endif
-								<td>0</td>
+								<td>{{ $player->gp_score + $player->m_score }}</td>
 								<td>{{$player->last_race_date}}</td>
 							</tr>
 						@endforeach
