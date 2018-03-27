@@ -59,7 +59,11 @@
 								<td>{{ $i }}</td>
 								<td><a href="{{url('/temp31')}}">{{$player->name}} ({{$player->team}})</a></td>
 								<td>{{$player->glicko}}</td>
-								<?php $total= $player->offensive_win + $player->defensive_win + $player->offensive_lose + $player->defensive_lose + $player->offensive_draw + $player->defensive_draw; ?>
+								<?php 
+									$total= $player->offensive_win + $player->defensive_win + $player->offensive_lose + $player->defensive_lose + $player->offensive_draw + $player->defensive_draw;
+									$offensive = $player->offensive_win + $player->offensive_lose;
+									$defensive = $player->defensive_win + $player->defensive_lose;
+								?>
 								<td>{{$total}}</td>
 								<td>{{$player->offensive_win + $player->defensive_win}}</td>
 								<td>{{$player->offensive_lose + $player->defensive_lose}}</td>
@@ -67,18 +71,20 @@
 								
 								<td>
 								@if($total != 0)
-								{{number_format((($player->offensive_win + $player->defensive_win)*2+($player->offensive_draw + $player->defensive_draw)*1)/($total*2)*100,2)}}%
+									{{number_format((($player->offensive_win + $player->defensive_win)*2+($player->offensive_draw + $player->defensive_draw)*1)/($total*2)*100,2)}}%
 								@else
 									0%
 								@endif
 								</td>
-								<td>@if($total != 0)								{{number_format(($player->offensive_win*2+$player->offensive_draw*1)/($total*2)*100,2)}}%
+								<td>@if($total != 0)								
+									{{number_format(($player->offensive_win*2+$player->offensive_draw*1)/($offensive*2)*100,2)}}%
 								@else
 									0%
 								@endif
 								</td>
 								<td>
-								@if($total != 0)									{{number_format(($player->defensive_win*2+$player->defensive_draw*1)/($total*2)*100,2)}}%
+								@if($total != 0)								
+									{{number_format(($player->defensive_win*2+$player->defensive_draw*1)/($defensive*2)*100,2)}}%
 								@else
 									0%
 								@endif
