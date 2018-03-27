@@ -38,7 +38,7 @@
 							<tr>
 								<th>目前排名</th>
 								<th>棋手姓名</th>
-								<th>等級分</th>
+								<th>Glicko</th>
 								<th>局數</th>
 								<th>勝局</th>
 								<th>敗局</th>
@@ -46,7 +46,8 @@
 								<th>總勝率</th>
 								<th>先手勝率</th>
 								<th>後手勝率</th>
-								<th>等級分變化</th>
+								<th>Glicko變化</th>
+								<th>積分</th>
 								<th>最後對弈時間</th>
 							</tr>
 						</thead>
@@ -82,7 +83,14 @@
 									0%
 								@endif
 								</td>
-								<td>{{$player->glicko_change}}</td>
+								@if(strpos($player->glicko_change, '+')!== false)
+									<td style="color:green;">▲{{substr($player->glicko_change, 1)}}</td>
+								@elseif(strpos($player->glicko_change, '-')!== false)
+									<td style="color:red;">▼{{substr($player->glicko_change, 1)}}</td>
+								@else
+									<td>{{$player->glicko_change}}</td>
+								@endif
+								<td>0</td>
 								<td>{{$player->last_race_date}}</td>
 							</tr>
 						@endforeach
@@ -94,7 +102,11 @@
     </div>
 	@section('script')
 	<script>	
-	
+		$('table').dataTable({
+			searching: false,
+			paging: false,
+			bInfo: false
+		});
 	</script>
 	@stop
 @stop

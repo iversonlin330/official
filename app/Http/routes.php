@@ -40,6 +40,9 @@ Route::get('temp5', function(){
 Route::get('temp6', function(){
 	return view('temp.temp6');
 });
+Route::get('temp7', function(){
+	return view('temp.temp7');
+});
 Route::get('temp31', function(){
 	return view('temp.temp31');
 });

@@ -14,10 +14,15 @@
   <meta http-equiv="Content-Type" content="text/html" charset=utf-8">
   <meta property="fb:app_id" content="1946376638913233" />
   <meta property="fb:admins" content="1193482045"/>
-	
   <link rel="stylesheet" href="{{ asset("assets/stylesheets/styles.css") }}" />
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" type="text/css"/>
+	<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosanstc.css" type="text/css"/>
+	<style>
+		body{
+			font-family: 'Noto Sans TC', sans-serif;
+		}
+	</style>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
