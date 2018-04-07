@@ -53,4 +53,11 @@ class PlayerController extends Controller
         $players = \App\Players::all();
         return view('player.star',compact('players'));
     }
+	
+	public function getShow($id){
+		$user = Auth::user();
+		$player = \App\Players::find($id);
+		
+        return view('player.show',compact('player'));
+    }
 }
