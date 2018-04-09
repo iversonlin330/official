@@ -147,10 +147,12 @@
 	  @foreach($player->player_score as $score)
 		{ game: {{$score->game_order}}, value: {{$score->glicko}} },
 	  @endforeach
+	  @if(0)
 		{ game: 0, value: 1740 },
 		{ game: 1, value: 1747 },
 		{ game: 2, value: 1753 },
 		{ game: 3, value: 1762 }
+		@endif
 	  ],
 	  // The name of the data record attribute that contains x-values.
 	  xkey: 'game',
