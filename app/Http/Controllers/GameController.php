@@ -199,4 +199,16 @@ class GameController extends Controller
 		$user = Auth::user();
         return view('game.highlight-detail',compact('user'));
     }
+	
+	public function getPlaybook(){
+		$user = Auth::user();
+		$playbooks = \App\Game_playbook::all();
+        return view('game.playbook',compact('user','playbooks'));
+    }
+	
+	public function getPlaybookDetail($id){
+		$user = Auth::user();
+		$playbook = \App\Game_playbook::find($id);
+        return view('game.playbook-detail',compact('user','playbook'));
+    }
 }
