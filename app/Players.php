@@ -22,11 +22,11 @@ class Players extends Model
     protected $guarded = ['id','created_at','updated_at'];
 	
 	public function player_game(){
-		return $this->hasMany('\App\Player_game', 'player_id', 'id');
+		return $this->hasMany('\App\Player_game', 'player_id', 'id')->orderBy('year','asc');
 	}
 	
 	public function player_d(){
-		return $this->hasMany('\App\Player_d', 'player_id', 'id');
+		return $this->hasMany('\App\Player_d', 'player_id', 'id')->orderBy('year','asc');
 	}
 	
 	public function player_score(){
