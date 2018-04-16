@@ -34,7 +34,7 @@
                             <td>99%</td>
                             <td>{{$player->D}}</td>
                             <td>HT</td>
-                            <td><img style='max-width: 20%;' src="http://3.bp.blogspot.com/-IbEOTNtCMyU/TfCAdHaAxEI/AAAAAAAAA8U/EATib38SSAM/s320/joe-mcelderry.jpg" alt=""></td>
+                            <td><img style='width: 100%;' src="{{$player->pic_url}}" alt=""></td>
                             <td>{{$player->name}}</td>
                             <td>1285</td>
                             <td><a class="btn btn-success" href="">加油支持</a></td>
