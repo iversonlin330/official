@@ -60,6 +60,14 @@ class HomeController extends Controller
 		$player_sijhih = $player_sijhih->orderBy('glicko','desc')->get();
 		//dd($player_sijhih);
 		
-        return view('home_temp',compact('video','status','players','player_sijhih'));
+		$player_all = new \App\Player_new;
+		$player_all = $player_all->setTable('player_all');
+		$player_all = $player_all->orderBy('glicko','desc')->get();
+		
+		$player_student = new \App\Player_new;
+		$player_student = $player_student->setTable('player_student');
+		$player_student = $player_student->orderBy('glicko','desc')->get();
+		
+        return view('home_temp',compact('video','status','players','player_sijhih','player_all','player_student'));
     }
 }
