@@ -20,4 +20,8 @@ class Player_new extends Model
      */
     //protected $fillable = ['name', 'email', 'password'];
     protected $guarded = ['id','created_at','updated_at'];
+	
+	public function player_vote(){
+		return $this->hasMany('\App\Player_votes', 'player_id', 'player_id');
+	}
 }

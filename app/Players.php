@@ -32,4 +32,8 @@ class Players extends Model
 	public function player_score(){
 		return $this->hasMany('\App\Player_score', 'player_id', 'id')->orderBy('game_order','asc');
 	}
+	
+	public function player_vote(){
+		return $this->hasMany('\App\Player_votes', 'player_id', 'id');
+	}
 }

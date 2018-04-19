@@ -31,13 +31,19 @@
                         @foreach($players as $player)
                         <tr>
                             <td>{{$player->elo}}</td>
-                            <td>99%</td>
+                            <td></td>
                             <td>{{$player->D}}</td>
-                            <td>HT</td>
+                            <td></td>
                             <td><img style='width: 100%;' src="{{$player->pic_url}}" alt=""></td>
                             <td>{{$player->name}}</td>
-                            <td>1285</td>
-                            <td><a class="btn btn-success" href="">加油支持</a></td>
+                            <td>{{$player->player_vote->count()}}</td>
+                            <td>
+							@if(Auth::check())
+								<a class="btn btn-success" href="{{url('/player/vote/'.$player->player_id)}}"data-toggle="modal" data-target="#ajax-modal">加油支持</a>
+								@else
+								請先登入
+							@endif
+							</td>
                             <td><a class="btn btn-primary" href="">上傳圖片</a></td>
                         </tr>
                         @endforeach

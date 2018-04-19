@@ -14,6 +14,8 @@
 			<th>Glicko變化</th>
 			<th>積分</th>
 			<th>最後對弈時間</th>
+			<th>人氣</th>
+			<th>加油支持</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -63,6 +65,14 @@
 			@endif
 			<td>{{ $player->gp_score + $player->m_score }}</td>
 			<td>{{$player->last_race_date}}</td>
+			<td>{{$player->player_vote->count()}}</td>
+			<td>
+			@if(Auth::check())
+				<a class="btn btn-success btn-xs" href="{{url('/player/vote/'.$player->player_id)}}"data-toggle="modal" data-target="#ajax-modal">加油支持</a>
+			@else
+				請先登入
+			@endif
+			</td>
 		</tr>
 	@endforeach
 	</tbody>

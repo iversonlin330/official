@@ -23,7 +23,7 @@ class PlayerController extends Controller
     }
 
     public function getView(){
-        $players = \App\Players::all();
+        $players = \App\Players::with('player_vote')->get();
         return view('player.view',compact('players'));
     }
 	
@@ -41,17 +41,22 @@ class PlayerController extends Controller
         $user = Auth::user();
 		$player = \App\Players::find($player_id);
 		$vote = \App\Player_votes
-			::where('player_id',$player_id)
-			->where('user_id',$user->id)
+			::where('user_id',$user->id)
+			->where('vote_date',date('Y-m-d'))
 			->first();
         return view('player.vote',compact('player','vote'));
     }
 	
-	public function postVote($id){
+	public function postVote($player_id){
 		$user = Auth::user();
+		
 		$vote = new \App\Player_votes;
-        $players = \App\Players::all();
-        return view('player.star',compact('players'));
+		$vote->player_id = $player_id;
+		$vote->vote_date = date('Y-m-d');
+		$vote->user_id = $user->id;
+		$vote->save();
+		
+		return back();
     }
 	
 	public function getShow($id){
