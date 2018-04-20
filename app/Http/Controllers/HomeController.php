@@ -54,22 +54,22 @@ class HomeController extends Controller
 			$status = $item->snippet->liveBroadcastContent;
 		}
 		$players = \App\Player_new
-			::with('player_vote')
+			::with('player_vote','player')
 			->orderBy('glicko','desc')
 			->get();
 		
 		$player_sijhih = new \App\Player_new;
 		$player_sijhih = $player_sijhih->setTable('player_sijhih');
-		$player_sijhih = $player_sijhih->orderBy('glicko','desc')->with('player_vote')->get();
+		$player_sijhih = $player_sijhih->orderBy('glicko','desc')->with('player_vote','player')->get();
 		//dd($player_sijhih);
 		
 		$player_all = new \App\Player_new;
 		$player_all = $player_all->setTable('player_all');
-		$player_all = $player_all->orderBy('glicko','desc')->with('player_vote')->get();
+		$player_all = $player_all->orderBy('glicko','desc')->with('player_vote','player')->get();
 		
 		$player_student = new \App\Player_new;
 		$player_student = $player_student->setTable('player_student');
-		$player_student = $player_student->orderBy('glicko','desc')->with('player_vote')->get();
+		$player_student = $player_student->orderBy('glicko','desc')->with('player_vote','player')->get();
 		
         return view('home_temp',compact('video','status','players','player_sijhih','player_all','player_student'));
     }

@@ -24,4 +24,8 @@ class Player_new extends Model
 	public function player_vote(){
 		return $this->hasMany('\App\Player_votes', 'player_id', 'player_id');
 	}
+	
+	public function player(){
+		return $this->hasOne('\App\Players', 'id', 'player_id');
+	}
 }
