@@ -40,7 +40,7 @@
 				@elseif(strpos($player->player->glicko_change, '-')!== false)
 					<span style="color:red;">▼{{substr($player->player->glicko_change, 1)}}</span>
 				@else
-					<span>--</td>
+					<span>--</span>
 				@endif
 			@endif
 			)</td>
@@ -51,7 +51,7 @@
 				@elseif(strpos($player->player->elo_change, '-')!== false)
 					<span style="color:red;">▼{{substr($player->player->elo_change, 1)}}</span>
 				@else
-					<span>--</td>
+					<span>--</span>
 				@endif
 			@endif
 			)</a></td>
