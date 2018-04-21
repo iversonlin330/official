@@ -34,11 +34,11 @@
                 </div>
                 <div class="panel-body">
 				<ul class="nav nav-tabs">
-					<li class="active"><a href="#1" data-toggle="tab">新店</a>
+					<li class="active"><a href="#3" data-toggle="tab">全棋聯賽</a>
 					</li>
 					<li><a href="#2" data-toggle="tab">汐止</a>
 					</li>
-					<li><a href="#3" data-toggle="tab">全棋聯賽</a>
+					<li><a href="#1" data-toggle="tab">新店</a>
 					</li>
 					<li><a href="#4" data-toggle="tab">學生聯賽</a>
 					</li>
