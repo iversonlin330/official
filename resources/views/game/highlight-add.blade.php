@@ -16,13 +16,19 @@
 				<div class="form-group">
 					<label class="control-label col-sm-2">標題</label>
 					<div class="col-sm-10">
-						<input name="name" type="text" class="form-control" placeholder="標題">
+						<input name="title" type="text" class="form-control" placeholder="標題">
+					 </div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-2">發布日期</label>
+					<div class="col-sm-10">
+						<input name="publish_date" type="date" class="form-control" placeholder="發布日期">
 					 </div>
 				</div>
 				<div class="form-group">
 					<label class="control-label col-sm-2">內容</label>
 					<div class="col-sm-10">
-						<textarea name="content"></textarea>
+						<textarea name="content_html"></textarea>
 					 </div>
 				</div>
 				<div class="form-group">        
@@ -37,7 +43,16 @@
 @section('script')
 <script src="https://cdn.ckeditor.com/4.8.0/full/ckeditor.js"></script>
 <script>
-    CKEDITOR.replace( 'content' );
+	@if(isset($highlight))
+		var highlight = {!! json_encode($highlight) !!};
+	console.log(highlight);
+	for(x in highlight){
+		console.log(x);
+		console.log(highlight[x]);
+		$('[name='+x+']').val(highlight[x]);
+	}
+	@endif
+    CKEDITOR.replace( 'content_html' );
 </script>
 @stop
 @stop

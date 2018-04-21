@@ -196,6 +196,28 @@ class GameController extends Controller
         return view('game.highlight-add',compact('user'));
     }
 	
+	public function postHighlightAdd(Request $request){
+		$data = $request->all();
+		$user = Auth::user();
+		$highlight = new \App\Game_highlights;
+		$highlight->fill($data)->save();
+		return redirect('game/highlight');
+    }
+	
+	public function getHighlightEdit($id){
+		$user = Auth::user();
+		$highlight = \App\Game_highlights::find($id);
+        return view('game.highlight-add',compact('user','highlight'));
+    }
+	
+	public function postHighlightEdit(Request $request,$id){
+		$data = $request->all();
+		$user = Auth::user();
+		$highlight = \App\Game_highlights::find($id);
+		$highlight->fill($data)->save();
+		return redirect('game/highlight');
+    }
+	
 	public function getHighlightDetail($id){
 		$user = Auth::user();
 		$highlight = \App\Game_highlights::find($id);
