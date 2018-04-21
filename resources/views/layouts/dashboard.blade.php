@@ -354,6 +354,10 @@
                             <a href="{{ url ('/game/playbook') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 棋譜中心</a>
                             <!-- /.nav-second-level -->
                         </li>
+			<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/game/playbook') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 線上教室</a>
+                            <!-- /.nav-second-level -->
+                        </li>
 						<li {{ (Request::is('forum') ? 'class="active"' : '') }}>
                             <a href="{{ url ('/forum/view') }}"><i class="fa fa-dashboard fa-fw"></i> 討論區</a>
                         </li>
