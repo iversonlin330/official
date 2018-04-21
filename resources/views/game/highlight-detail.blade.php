@@ -1,5 +1,5 @@
 @extends('layouts.dashboard')
-@section('page_heading','XXX大賽')
+@section('page_heading',$highlight->title)
 @section('section')
 <style>
 .table>tbody>tr>td{
@@ -9,10 +9,10 @@
 <div class="col-sm-12">
     <div class="panel panel-primary">
         <div class="panel-heading">
-            XXX大賽
+		{{$highlight->title}}
         </div>
         <div class="panel-body">
-            以下為文章內容
+		{!! $highlight->content_html !!}
         </div>
     </div>
 </div>

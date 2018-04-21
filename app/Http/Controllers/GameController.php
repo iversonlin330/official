@@ -187,7 +187,8 @@ class GameController extends Controller
 	
 	public function getHighlight(){
 		$user = Auth::user();
-        return view('game.highlight',compact('user'));
+		$highlights = \App\Game_highlights::all();
+        return view('game.highlight',compact('user','highlights'));
     }
 	
 	public function getHighlightAdd(){
@@ -195,9 +196,10 @@ class GameController extends Controller
         return view('game.highlight-add',compact('user'));
     }
 	
-	public function getHighlightDetail(){
+	public function getHighlightDetail($id){
 		$user = Auth::user();
-        return view('game.highlight-detail',compact('user'));
+		$highlight = \App\Game_highlights::find($id);
+        return view('game.highlight-detail',compact('user','highlight'));
     }
 	
 	public function getPlaybook(){

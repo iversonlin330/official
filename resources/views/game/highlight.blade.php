@@ -20,17 +20,17 @@
                     <tr>
                         <th>建立日期</th>
                         <th>標題</th>
-                        <th>文章內容</th>
                         <th>觀看更多</th>
                     </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>2017-08-29</td>
-                    <td><a href="">XXX大賽</a></td>
-                    <td>sdckmsdcl;s,dclscdsdc.....</td>
-                    <td><a href="{{ url('/game/highlight-detail') }}" class="btn btn-success">觀看更多</a></td>
-                </tr> 
+				@foreach($highlights as $highlight)
+				<tr>
+                    <td>{{$highlight->publish_date}}</td>
+                    <td><a href="">{{$highlight->title}}</a></td>
+                    <td><a href="{{ url('/game/highlight-detail/'.$highlight->id) }}" class="btn btn-success">觀看更多</a></td>
+                </tr>
+				@endforeach
                 </tbody>
             </table>
         </div>
