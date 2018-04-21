@@ -1,7 +1,9 @@
 <table class="table table-bordered">
 	<thead>
 		<tr>
-			<th>排名</th>
+		@if(0)
+			<th>排名-順序</th>
+		@endif
 			<th>單位</th>
 			<th>棋手姓名</th>
 			<th>Glicko</th>
@@ -28,7 +30,9 @@
 	@foreach($players as $player)
 		<?php $i++; ?>
 		<tr>
+		@if(0)
 			<td>{{ $i }}</td>
+		@endif
 			<td>{{$player->team}}</td>
 			<td>
 				<a href="{{url('/player/show/'.$player->player_id)}}">{{($player->player)? $player->player->name : ''}}</a>
