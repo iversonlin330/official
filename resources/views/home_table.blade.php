@@ -35,7 +35,7 @@
 		@endif
 			<td>{{$player->team}}</td>
 			<td>
-				<a href="{{url('/player/show/'.$player->player_id)}}">{{($player->player)? $player->player->name : ''}}</a>
+				<a href="{{url('/player/show/'.$player->player_id)}}">{{($player->player)? $player->player->name.'('.$player->player->D.'段)' : ''}}</a>
 			</td>
 			<td>{{($player->player)? $player->player->glicko : ''}} (
 			@if($player->player)
