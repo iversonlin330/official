@@ -123,12 +123,36 @@
 		</table>
 	</div>
 </div>
+<div class="col-md-6">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			先手
+		</div>
+		<div id="donut-example" style="height: 250px;"></div>
+	</div>
+</div>
+<div class="col-md-6">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			後手
+		</div>
+		<div id="donut-example-2" style="height: 250px;"></div>
+	</div>
+</div>
 <div class="col-md-12">
 	<div class="panel panel-default">
 		<div class="panel-heading">
-			Glicko成長曲線
+			Glicko/Elo成長曲線
 		</div>
-		<div id="myfirstchart" style="height: 250px;"></div>
+		<div id="myfirstchart" style=""></div>
+	</div>
+</div>
+<div class="col-md-12">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			人氣值
+		</div>
+		<div id="bar-example" style="height: 250px;"></div>
 	</div>
 </div>
 @section('script')
@@ -143,28 +167,63 @@
 	  element: 'myfirstchart',
 	  // Chart data records -- each entry in this array corresponds to a point on
 	  // the chart.
+	 
 	  data: [
+	   @if(0)
 	  @foreach($player->player_score as $score)
 		{ game: {{$score->game_order}}, value: {{$score->glicko}} },
 	  @endforeach
-	  @if(0)
-		{ game: 0, value: 1740 },
-		{ game: 1, value: 1747 },
-		{ game: 2, value: 1753 },
-		{ game: 3, value: 1762 }
-		@endif
+	  @endif
+		{ game: 0, glicko: 1740, elo: 1500},
+		{ game: 1, glicko: 1747, elo: 1550 },
+		{ game: 2, glicko: 1753, elo: 1600 },
+		{ game: 3, glicko: 1762, elo: 1620 }
+		
 	  ],
 	  // The name of the data record attribute that contains x-values.
 	  xkey: 'game',
 	  // A list of names of data record attributes that contain y-values.
-	  ykeys: ['value'],
+	  ykeys: ['glicko','elo'],
 	  // Labels for the ykeys -- will be displayed when you hover over the
 	  // chart.
-	  labels: ['Glicko'],
+	  labels: ['Glicko','Elo'],
 	   ymin: 'auto',
 		ymax: 'auto',
 		parseTime: false,
 	});
+	
+	Morris.Donut({
+	  element: 'donut-example',
+	  data: [
+		{label: "勝", value: 50},
+		{label: "敗", value: 30},
+		{label: "和", value: 20}
+	  ]
+	});
+	
+	Morris.Donut({
+	  element: 'donut-example-2',
+	  data: [
+		{label: "勝", value: 20},
+		{label: "敗", value: 50},
+		{label: "和", value: 40}
+	  ]
+	});
+	Morris.Bar({
+  element: 'bar-example',
+  data: [
+    { y: '2006', a: 100, b: 90 },
+    { y: '2007', a: 75,  b: 65 },
+    { y: '2008', a: 50,  b: 40 },
+    { y: '2009', a: 75,  b: 65 },
+    { y: '2010', a: 50,  b: 40 },
+    { y: '2011', a: 75,  b: 65 },
+    { y: '2012', a: 100, b: 90 }
+  ],
+  xkey: 'y',
+  ykeys: ['a', 'b'],
+  labels: ['Series A', 'Series B']
+});
 </script>
 @stop
 @stop
