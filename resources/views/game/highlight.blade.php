@@ -27,7 +27,7 @@
 				@foreach($highlights as $highlight)
 				<tr>
                     <td>{{$highlight->publish_date}}</td>
-                    <td><a href="">{{$highlight->title}}</a></td>
+                    <td><a href="{{ url('/game/highlight-detail/'.$highlight->id) }}">{{$highlight->title}}</a></td>
                     <td><a href="{{ url('/game/highlight-detail/'.$highlight->id) }}" class="btn btn-success">觀看更多</a></td>
                 </tr>
 				@endforeach
