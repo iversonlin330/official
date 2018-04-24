@@ -17,7 +17,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="{{ url ('') }}"><img src="{{url('/official.jpg')}}" style='max-height:50px;border-radius:50%;'></a>
+                <a href="{{ url ('') }}"><img src="{{asset('/official.jpg')}}" style='max-height:50px;border-radius:50%;' alt='website_pic'></a>
             </div>
             <!-- /.navbar-header -->
 

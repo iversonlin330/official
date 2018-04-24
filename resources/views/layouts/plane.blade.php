@@ -6,11 +6,12 @@
 <!--<![endif]-->
 <head>
   <meta charset="utf-8"/>
-  <title>Official</title>
+  <link rel="icon" type="image/x-icon" href="/icon.jpg" />
+  <title>棋夢元</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <meta content="" name="description"/>
-  <meta content="" name="author"/>
+  <meta content="Taiwan chinese chess website." name="description"/>
+  <meta content="uylin40@gmail.com" name="author"/>
   <meta http-equiv="Content-Type" content="text/html" charset=utf-8">
   <meta property="fb:app_id" content="1946376638913233" />
   <meta property="fb:admins" content="1193482045"/>
@@ -34,6 +35,7 @@
     ga('send', 'pageview');
 
   </script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5add9c6630be5311"></script>
 </head>
 <body>
   @yield('body')
