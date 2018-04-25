@@ -7,6 +7,7 @@
 <head>
   <meta charset="utf-8"/>
   <link rel="icon" type="image/x-icon" href="/icon.jpg" />
+  <meta name="title" content ="棋夢元">
   <title>棋夢元</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
