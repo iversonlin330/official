@@ -1,5 +1,5 @@
 @extends('layouts.dashboard')
-@section('page_heading','official')
+@section('page_heading','棋夢元')
 @section('section')
 <style>
 .active{

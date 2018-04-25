@@ -471,14 +471,14 @@
         </nav>
 
         <div id="page-wrapper">
-		@if(!Request::is('/'))
+		@if(!Request::is('/'))@endif
 		<div class="row">
 			<div class="col-lg-12">
 				<h1 class="page-header">@yield('page_heading')</h1>
 			</div>
 			<!-- /.col-lg-12 -->
 	    </div>
-		@endif
+		
       <div class="row">  
         @yield('section')
 

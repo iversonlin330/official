@@ -64,4 +64,10 @@ class VideoController extends Controller
         return view('video.view',compact('videos'));
     }
 	
+	public function getShow($id){
+		$video = \App\Videos::find($id);
+		$item = $this->youtube_info($video->youtube_id)[0];
+		$status = $item->snippet->liveBroadcastContent;
+		return view('video.show',compact('video','status'));
+    }
 }

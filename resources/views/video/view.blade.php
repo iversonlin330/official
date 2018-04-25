@@ -28,7 +28,7 @@
 				<td>{{ $video->viewCount }}</td>
 				<td>{{ $video->likeCount }}</td>
 				<td>{{ $video->commentCount }}</td>
-				<td><a class="btn btn-success" href="{{url('/video/play/'.$video->id)}}">觀看</a></td>
+				<td><a class="btn btn-success" href="{{url('/video/show/'.$video->id)}}">觀看</a></td>
 			</tr>
 			@endforeach
 			</tbody>
