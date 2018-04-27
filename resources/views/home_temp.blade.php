@@ -34,23 +34,23 @@
                 </div>
                 <div class="panel-body">
 				<ul class="nav nav-tabs">
-					<li class="active"><a href="#3" data-toggle="tab">全棋聯賽</a>
+					<li class="active"><a href="#1" data-toggle="tab">新店</a>
 					</li>
 					<li><a href="#2" data-toggle="tab">汐止</a>
 					</li>
-					<li><a href="#1" data-toggle="tab">新店</a>
+					<li><a href="#3" data-toggle="tab">全棋聯賽</a>
 					</li>
 					<li><a href="#4" data-toggle="tab">學生聯賽</a>
 					</li>
 				</ul>
 				<div class="tab-content">
-						<div class="tab-pane fade" id="1">
+						<div class="tab-pane fade in active" id="1">
 							@include('home_table',['players' => $players])
 						</div>
 						<div class="tab-pane fade" id="2">
 							@include('home_table',['players' => $player_sijhih])
 						</div>
-						<div class="tab-pane fade in active" id="3">
+						<div class="tab-pane fade" id="3">
 							@include('home_table',['players' => $player_all])
 						</div>
 						<div class="tab-pane fade" id="4">
