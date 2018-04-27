@@ -61,8 +61,8 @@
 			)</a></td>
 			<?php 
 				$total= $player->offensive_win + $player->defensive_win + $player->offensive_lose + $player->defensive_lose + $player->offensive_draw + $player->defensive_draw;
-				$offensive = $player->offensive_win + $player->offensive_lose;
-				$defensive = $player->defensive_win + $player->defensive_lose;
+				$offensive = $player->offensive_win + $player->offensive_lose + $player->offensive_draw;
+				$defensive = $player->defensive_win + $player->defensive_lose + $player->defensive_draw;
 			?>
 			<td>{{$total}}</td>
 			<td>{{$player->offensive_win + $player->defensive_win}}</td>
