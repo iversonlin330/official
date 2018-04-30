@@ -14,12 +14,18 @@
 			<img style='max-width: 100%;' src="{{$player->pic_url}}" alt="">
 	</div>
 	<div class="col-md-3">
-		<div class="h5">姓名:{{$player->name}}</div>
+		<div class="h5">姓名:{{$player->name}}
+		@if($player->nick_name)
+			({{$player->nick_name}})
+		@endif
+		</div>
 		<div class="h5">段位(升段年):{{$player->D}}({{$player->d_year}})</div>
 		<div class="h5">出生時:{{$player->birth_year}}年</div>
 		<div class="h5">出生地:{{$player->birth_place}}</div>
-		<div class="h5">大學:{{$player->university}}</div>
+		<div class="h5">學歷:{{$player->university}}</div>
+		@if($player->institute)
 		<div class="h5">研究所:{{$player->institute}}</div>
+		@endif
 	</div>
 	<div class="col-md-7 reward-group">
 		@foreach($player->player_game as $game)
