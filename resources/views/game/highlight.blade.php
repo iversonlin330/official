@@ -38,7 +38,9 @@
 </div>
 @section('script')
 <script>
-    $('table').DataTable();
+    $('table').DataTable({
+		"order": [[ 0, "desc" ]]
+	});
 </script>
 @stop
 @stop
