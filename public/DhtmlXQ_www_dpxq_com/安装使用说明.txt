@@ -1,0 +1,271 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="generator" content="notepad">
+<meta name="author" content="hldcg,弈天东邪">
+<meta name="Copyright" content="www.dpxq.com 版权所有,文章可自由转载,请注明文章出处">
+<meta name="keywords" content="象棋,中国象棋,象棋棋谱,东萍象棋">
+<meta name="description" content="全文本 DHTML 动态棋盘。东萍象棋网络杂志，荟萃中国象棋精华。">
+<title> http://www.dpxq.com/ 版权所有</title>
+
+</head>
+<body>
+<xmp>
+可到如下网址查看DhtmlXQ动态棋盘棋谱仓库：http://www.dpxq.com/hldcg/search/
+可到如下网址生成DhtmlXQ动态棋盘原始UBB代码：http://www.dpxq.com/hldcg/dhtmlxq/
+
+转换页面其他网站可随意链接。
+适用于放在框架中显示的转换页面地址：http://www.dpxq.com/hldcg/dhtmlxq/iframe.htm
+繁体版的转换页面地址：http://www.dpxq.com/hldcg/dhtmlxq/iframe_big5.htm
+关于DhtmlXQ动态棋盘规范的详细内容和动态棋盘演示页面：http://www.dpxq.com/hldcg/dhtmlxq/dhtmlxq_show.htm
+整个页面采用 iframe + javascript + css 制作，方便升级，预设了宽度为500，高度为350，可导出棋盘源代码。
+
+欢迎对本程序提出好的建议。
+程序设计：hldcg(弈天东邪、东萍公司)
+个人主页：http://www.dpxq.com/
+主要内容为《东萍象棋网络杂志》、棋谱搜索、免费棋谱仓库、动态棋盘
+联系QQ：88081492 MSN：hldcg@hotmail.com
+
+各类常见棋谱都能直接转换成本动态棋盘代码，如需要在网页中显示“转换棋谱”按钮，请将如下代码，加到你需要的位置即可！
+<input type="button" onclick="window.open('http://www.dpxq.com/hldcg/dhtmlxq/frame.htm','','width=760,height=415,resizeable=yes,status=yes')" value="转换棋谱" />
+或者
+<a href="javascript:window.open('http://www.dpxq.com/hldcg/dhtmlxq/frame.htm','','width=760,height=415,resizeable=yes,status=yes');void(null);">转换棋谱</a>
+如需要用繁体版，文件名为 frame_big5.htm 请自己修改。
+
+为Discuz!论坛、Dvbbs动网论坛、PHPWind论坛快速添加动态棋盘支持的办法：不用修改任何文件，也不用上传任何文件，只需要修改后台代码即可！
+
+注意:部分论坛会将'自动转成'',造成代码失效,这时可以将name='...'这两边的'换成"
+一、Discuz论坛,PHPWind论坛
+论坛后台添加 Discuz! 代码，目前对Discuz!7.0最新版有另一种简便办法，请往下看
+标签：DhtmlXQ
+替换内容：
+<iframe src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" marginwidth="0" marginheight="0" name='NoFile_[DhtmlXQiFrame]{1}[/DhtmlXQiFrame]'></iframe>
+例子：
+[DhtmlXQ]xxx[/DhtmlXQ] 
+解释：
+Show Chess Board
+参数个数：1
+嵌套次数：1
+确认并使之生效即可！需要到用户组设置里允许使用自定义Discuz!代码
+对于Discuz! 7.0论坛，还需要修改/bbs/include/cache.func.php 第1240 行
+将   1 => "/\[{bbtag}]([^\"\[]+?)\[\/{bbtag}\]/is",
+改成 1 => "/\[{bbtag}]([^\"]+?)\[\/{bbtag}\]/is",
+或者后台添加 帖子 词语过滤 也可以，不过dz的词语过滤机制不好，对老帖子不起作用
+[DhtmlXQ_   替换为  \\u005BDhtmlXQ_
+[/DhtmlXQ_  替换为  \\u005B/DhtmlXQ_
+注意这个替换的是两个 \ 号
+
+★Discuz!7.0论坛添加棋盘支持的简便办法
+
+到后台设置一个新的自定义贴内广告，位置在帖子下面，内容如下
+<script type="text/javascript">
+	var DhtmlXQ = 'dhtmlxq_'+parseInt(Math.random()*100000);
+	document.write('<div id="'+DhtmlXQ+'"></div>');
+	DhtmlXQ=document.getElementById(DhtmlXQ).parentNode;
+	DhtmlXQ='ad_thread4_'+DhtmlXQ.id.split('_')[2];
+	DhtmlXQ=document.getElementById(DhtmlXQ).parentNode;
+	DhtmlXQ=DhtmlXQ.innerHTML.match(/postmessage_\d+/gi);
+	if (DhtmlXQ!=null)
+	{
+		DhtmlXQ=document.getElementById(DhtmlXQ[0]);
+		if (typeof(DhtmlXQ)=='object')
+		{
+			if (DhtmlXQ.innerHTML.search(/\[DhtmlXQ\]([^\']{100,})\[\/DhtmlXQ\]/gi)!=-1)
+			DhtmlXQ.innerHTML=DhtmlXQ.innerHTML.replace(/\[DhtmlXQ\]/gi,'\x01').replace(/\[\/DhtmlXQ\]/gi,'\x02').replace(/\x01([^\x02]{100,})\x02/gi,'<iframe name=\'NoFile_[DhtmlXQiFrame]$1[/DhtmlXQiFrame]\' src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" marginwidth="0" marginheight="0"></iframe>').replace(/\x01/gi,'[DhtmlXQ]').replace(/\x02/gi,'[/DhtmlXQ]');
+		}
+	}
+	document.write('<a href="http://www.dpxq.com/hldcg/search/readme.htm" target="_blank">广告：点此查看在最新的Discuz!7.0论坛上添加动态棋盘支持的办法</a>');
+</script>
+添加后确定即可，然后可能需要到论坛设置里“帖子开启干扰码”去掉，这样就不用再使用以前的老办法了，也无需修改程序
+
+Discuz! X1 版可以加广告
+<script type="text/javascript">
+	var DhtmlXQ = 'dhtmlxq_'+parseInt(Math.random()*100000);
+	document.write('<div id="'+DhtmlXQ+'"></div>');
+	DhtmlXQ=document.getElementById(DhtmlXQ).parentNode.parentNode.parentNode;
+	for (i=0;i<5;i++)
+	{
+		DhtmlXQ=DhtmlXQ.previousSibling;
+		if (DhtmlXQ.tagName=='TR') break;
+	}
+	DhtmlXQ=DhtmlXQ.cells[1].getElementsByTagName('TABLE');
+	DhtmlXQ=DhtmlXQ[0].rows[0].cells[0];
+	if (DhtmlXQ.innerHTML.search(/\[DhtmlXQ\]([^\']{100,})\[\/DhtmlXQ\]/gi)!=-1)
+	DhtmlXQ.innerHTML=DhtmlXQ.innerHTML.replace(/\[DhtmlXQ\]/gi,'\x01').replace(/\[\/DhtmlXQ\]/gi,'\x02').replace(/\x01([^\x02]{100,})\x02/gi,'<iframe name=\'NoFile_[DhtmlXQiFrame]$1[/DhtmlXQiFrame]\' src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" marginwidth="0" marginheight="0"></iframe>').replace(/\x01/gi,'[DhtmlXQ]').replace(/\x02/gi,'[/DhtmlXQ]');
+	document.write('<a href="http://www.dpxq.com/hldcg/search/readme.htm" target="_blank">广告：点此查看在最新的Discuz!7.0论坛上添加动态棋盘支持的办法</a>');
+</script>
+
+二、动网论坛 最新8.x版已经不适用，请看下面的修改asp文件的办法
+论坛后台修改 page_dispbbs template.html(0) 模版
+第一步：找到 function astro(birth) 一般在第10行左右
+将如下代码添加在function astro(birth) 这行的上面！
+function ConvDhtmlXQ()
+{
+	var rndnum = 'dhtmlxq_'+parseInt(Math.random()*100000);
+	document.write('<div id="'+rndnum+'"></div>');
+	rndnum=document.getElementById(rndnum).parentNode;
+	if (rndnum.innerHTML.search(/\[DhtmlXQ\]([^\']{100,})\[\/DhtmlXQ\]/gi)!=-1)
+	rndnum.innerHTML=rndnum.innerHTML.replace(/\[DhtmlXQ\]/gi,'\x01').replace(/\[\/DhtmlXQ\]/gi,'\x02').replace(/\x01([^\x02]{100,})\x02/gi,'<iframe name=\'NoFile_[DhtmlXQiFrame]$1[/DhtmlXQiFrame]\' src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" marginwidth="0" marginheight="0"></iframe>').replace(/\x01/gi,'[DhtmlXQ]').replace(/\x02/gi,'[/DhtmlXQ]');
+}
+
+第二步：找到<div style="{$bodystyle}margin-top:10px;word-wrap : break-word ;word-break : break-all ;" onload="this.style.overflowX='auto';"
+        大概在340行左右，在紧跟下面的第4行处找到 </div>
+        在</div>前面添加<script type="text/javascript" language="javascript">ConvDhtmlXQ();</script>
+
+三、PHPWind 论坛
+
+注意：phpwind类论坛也可以后台统一设置允许使用frame，然后发贴时使用frame格式的动态棋盘代码即可
+
+6.0版：后台添加自定义WindCode,同discuz的办法,不过棋盘中不能包含英文(和&符号,如果修改一下admin/cache.php可支持
+
+将$regxp = array('([^\(&]+?)','(\w+)','(\d+)'); 
+改成$regxp = array('([\w\W]+?)','(\w+)','(\d+)');
+代码在 admin/cache.php 第552行!
+
+7.0 rc1版 添加办法相同，也可通过修改第621行来支持含英文(和&符号的棋谱
+
+5.3版：论坛后台添加一个贴间广告代码，内容如下
+
+<script type="text/javascript" language="javascript">
+var rndnum = 'dhtmlxq_'+parseInt(Math.random()*100000);
+document.write('<div id="'+rndnum+'"></div>');
+rndnum=document.getElementById(rndnum).parentNode.parentNode.parentNode.parentNode.getElementsByTagName('TH')[1].getElementsByTagName('DIV')[1];
+if (rndnum.innerHTML.search(/\[DhtmlXQ\]([^\']{100,})\[\/DhtmlXQ\]/gi)!=-1)
+rndnum.innerHTML=rndnum.innerHTML.replace(/\[DhtmlXQ\]/gi,'\x01').replace(/\[\/DhtmlXQ\]/gi,'\x02').replace(/\x01([^\x02]{100,})\x02/gi,'<iframe name=\'NoFile_[DhtmlXQiFrame]$1[/DhtmlXQiFrame]\' src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" marginwidth="0" marginheight="0"></iframe>').replace(/\x01/gi,'[DhtmlXQ]').replace(/\x02/gi,'[/DhtmlXQ]');
+</script>
+<a href="http://www.dpxq.com/bbs/dispbbs.asp?boardID=7&ID=7151" target="_blank">PHPWind论坛后台添加一段贴间广告代码立即获得东萍UBB动态棋盘显示支持的具体代码</a>
+
+
+5.01和4.32版：论坛后台添加一贴间广告代码，内容如下：
+
+<script type="text/javascript" language="javascript">
+var rndnum = 'dhtmlxq_'+parseInt(Math.random()*100000);
+document.write('<div id="'+rndnum+'"></div>');
+rndnum=document.getElementById(rndnum).parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.getElementsByTagName('SPAN')[1];
+if (rndnum.innerHTML.search(/\[DhtmlXQ\]([^\']{100,})\[\/DhtmlXQ\]/gi)!=-1)
+rndnum.innerHTML=rndnum.innerHTML.replace(/\[DhtmlXQ\]/gi,'\x01').replace(/\[\/DhtmlXQ\]/gi,'\x02').replace(/\x01([^\x02]{100,})\x02/gi,'<iframe name=\'NoFile_[DhtmlXQiFrame]$1[/DhtmlXQiFrame]\' src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" marginwidth="0" marginheight="0"></iframe>').replace(/\x01/gi,'[DhtmlXQ]').replace(/\x02/gi,'[/DhtmlXQ]');
+</script>
+<a href="http://www.dpxq.com/bbs/dispbbs.asp?boardID=7&ID=7151" target="_blank">PHPWind论坛后台添加一段贴间广告代码立即获得东萍UBB动态棋盘显示支持的具体代码</a>
+
+注意最后这个链接的内容根据自己需要更改，现在这个是安装办法的广告！
+
+
+
+通过修改论坛文件的安装办法：
+
+一、用winrar解压缩后把 整个“DhtmlXQ_www_dpxq_com”目录 上传到网站根目录！如自己懂代码，也可自己修改程序路径。
+二、如果是独立HTML页面或论坛程序直接可以发HTML、JavaScript代码，直接就可以发表HTML格式的DhtmlXQ棋盘！
+　　如果是普通论坛[如动网、乔客]，需要简单修改一下论坛的源文件！在帖子中用 UBB代码来发表DhtmlXQ棋盘！
+三、如果非动网、乔客类型的ASP论坛或其他论坛[如PHP类型]，可以自己研究修改办法，最终只要实现如下字符串替换即可：
+
+    源字符串：
+    [DhtmlXQ]                                      ---- 开始标志 
+    [DhtmlXQ_ver]www_dpxq_com[/DhtmlXQ_ver]        ---- 这个是DhtmlXQ棋盘支持文件的版本，目前简体版均为www_dpxq_com，big5内码版本为 www_dpxq_com_big5
+    [DhtmlXQ_init]500,350[/DhtmlXQ_init]           ---- 这里500,350可以是其他2-4位的整数
+    任意非单引号字符，至少要100个字符以上          ---- 应该为多个 \[DhtmlXQ_(\w+)\].*\[\/DhtmlXQ_\1\] 正则字符串的组合
+    [/DhtmlXQ]                                     ---- 结束标志
+
+    替换为：<iframe src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" marginwidth="0" marginheight="0" name='NoFile_[DhtmlXQiFrame]去掉开始标志和结束标志的源字符串[/DhtmlXQiFrame]'></iframe>
+
+四、本棋盘源代码支持CHM本地断网显示，制作原始网页时将支持文件放到源文件目录下即可
+
+动网论坛7.x修改办法
+找到inc目录下的dv_ubbcode.asp 
+
+在300行左右找到
+  Dv_UbbCode=bbimg(s,500)
+  Set Re=Nothing
+ End Function
+动网论坛8.x是在在第458行左右找到
+		Dv_UbbCode = s
+	End Function
+
+这段代码前添加
+
+  '东邪添加 DhtmlXQ 棋谱
+  re.Pattern="\[DhtmlXQ\]([\w\W]{100,}?)\[\/DhtmlXQ\]"
+  s=re.Replace(s,"<iframe src=""http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm"" frameborder=""0"" scrolling=""no"" width=""500"" height=""350"" marginwidth=""0"" marginheight=""0"" name='NoFile_[DhtmlXQiFrame]$1[/DhtmlXQiFrame]' ></iframe>")
+  '东邪添加 DhtmlXQ 棋谱
+
+乔客4.0版修改
+
+修改网站/common/config/codes/ubb.xcml文件，在第6行 </configure>之后添加一新项目即可！
+
+ <item>
+  <key>DhtmlXQ</key>
+  <type>1</type>
+  <regex><![CDATA[\[DhtmlXQ\]([^\']{100,}?)\[\/DhtmlXQ\]]]></regex>
+  <html><![CDATA[<iframe src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" marginwidth="0" marginheight="0" name='NoFile_[DhtmlXQiFrame]$1[/DhtmlXQiFrame]'></iframe>]]></html>
+ </item>
+
+乔客论坛修改办法
+找到common目录下的jk_ubb.asp
+
+在74行左右找到
+ re.Global=true
+ re.MultiLine=true
+
+在后面添加如下代码
+
+ '东邪添加 DhtmlXQ 棋谱
+ re.Pattern="\[DhtmlXQ\]([\w\W]{100,}?)\[\/DhtmlXQ\]"
+ strer=re.Replace(strer,"<iframe src=""http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm"" frameborder=""0"" scrolling=""no"" width=""500"" height=""350"" marginwidth=""0"" marginheight=""0"" name='NoFile_[DhtmlXQiFrame]$1[/DhtmlXQiFrame]'></iframe>")
+ '东邪添加 DhtmlXQ 棋谱
+
+
+bbsxp 7.0 论坛的修改办法
+找到ybb.js
+
+找到函数 function ybbcode(temp) 一般就是第一个函数
+再这个函数结尾处找到 return (temp); 第41行左右，在这行之前添加以下代码即可
+//东邪添加 DhtmlXQ 棋谱
+ temp=temp.replace(/\[DhtmlXQ\]([^\']{100,}?)\[\/DhtmlXQ\]/g,'<iframe src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" marginwidth="0" marginheight="0" name=\'NoFile_[DhtmlXQiFrame]$1[/DhtmlXQiFrame]\'></iframe>');
+//东邪添加 DhtmlXQ 棋谱
+
+bbsxp 2007 论坛的修改办法
+找到BBSXP_Class.asp
+
+找到函数Function YbbEncode(str)
+再这个函数结尾处找到 YbbEncode=str 第332行左右，在这行之前添加以下代码即可
+'东邪添加 DhtmlXQ 棋谱
+str=ReplaceText(str,"\[DhtmlXQ\]([\w\W]{100,}?)\[\/DhtmlXQ\]","<iframe src=""http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm"" frameborder=""0"" scrolling=""no"" width=""500"" height=""350"" marginwidth=""0"" marginheight=""0"" name=""NoFile_[DhtmlXQiFrame]$1[/DhtmlXQiFrame]""></iframe>")
+'东邪添加 DhtmlXQ 棋谱
+
+discuz 4.10的修改办法
+
+找到include目录下的discuzcode.func.php
+搜索  return $htmlon || $allowhtml ? $message : nl2br(str_replace(array("\t", '   ', '  '), array('&nbsp; &nbsp; &nbsp; &nbsp; ', '&nbsp; &nbsp;', '&nbsp;&nbsp;'), $message));
+一般 应该是 function discuzcode  函数的最后一行，第256行左右！
+找到这行之后 将这行连同下一行的大括号 替换成  以下代码即可
+
+ // 东邪添加动态棋盘显示 
+ $message = preg_replace("/\[DhtmlXQ\]([^\']{100,}?)\[\/DhtmlXQ\]/ies", '<iframe src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" marginwidth="0" marginheight="0" name=\'NoFile_[DhtmlXQiFrame]\\1[/DhtmlXQiFrame]\'></iframe>', $message);
+ // 东邪添加动态棋盘显示 
+
+ return $htmlon || $allowhtml ? $message : nl2br(str_replace(array("\t", '   ', '  '), array('&nbsp; &nbsp; &nbsp; &nbsp; ', '&nbsp; &nbsp;', '&nbsp;&nbsp;'), $message));
+}
+
+phpwind论坛的修改办法
+找到require目录下的bbscode.php
+搜索 return $message;
+一般应该是 function convert  函数的最后一行，第154行左右！
+phpwind的博客修改办法
+找到mod目录下的windcode.php
+搜索 return $message;
+一般应该是 function convert  函数的最后一行，第116行左右！
+找到这行之后 将这行连同下一行的大括号 替换成  以下代码即可
+ // 东邪添加动态棋盘显示 
+ $message = preg_replace("/\[DhtmlXQ\]([^\']{100,}?)\[\/DhtmlXQ\]/ies", '<iframe src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" marginwidth="0" marginheight="0" name=\'NoFile_[DhtmlXQiFrame]\\1[/DhtmlXQiFrame]\'></iframe>', $message);
+ // 东邪添加动态棋盘显示 
+ return $message;
+}
+
+附录：FlashXQ.swf是象棋巫师的Flash棋盘，sgf_view.swf是中国棋院网的围棋SGF棋谱显示的Flash动态棋盘
+在线制作棋谱办法请看zhaodi制作的简明教程 http://www.hgchess.com/bbs/dispbbs.asp?boardid=48&id=15962
+目前新浪博客,网易博客,搜狐博客,腾讯QQ空间,天涯博客,搜狐论坛,其他常见论坛博客均可发表FLASH版棋盘
+在新浪博客发表棋谱的教程请看弈仙剑侠的新浪博文http://blog.sina.com.cn/s/blog_4b898f9a0100aub7.html
+</xmp>
+</body>
+</html>

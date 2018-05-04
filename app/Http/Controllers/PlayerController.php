@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 use Auth;
+use Illuminate\Http\Request;
 
 class PlayerController extends Controller
 {
@@ -64,5 +65,36 @@ class PlayerController extends Controller
 		$player = \App\Players::find($id);
 		
         return view('player.show',compact('player'));
+    }
+		
+	public function getExcel(){
+		$user = Auth::user();
+		
+        return view('player.excel');
+    }
+	
+	public function postExcel(Request $request){
+		$user = Auth::user();
+		$file = $request->file('import_file');
+		/*
+		$excel = \Excel::load($file,function($reader) {
+			$reader->each(function($sheet) {
+				//dd($sheet);
+				Log::warning("sheet happens");
+
+				// Loop through rows            
+				$sheet->each(function($row) {
+					Log::warning($row);
+				});
+
+			});
+			
+		})->all()->toArray();
+		*/
+		//$rt = \Excel::load($file, function($reader) {
+		//})->get();
+		$excel = \Excel::load($file)->all()->toArray();
+		dd($excel);
+        return view('player.excel');
     }
 }

@@ -22,13 +22,14 @@
             <!-- /.navbar-header -->
 
             <ul class="nav navbar-top-links navbar-right">
-            @if(Auth::check())
+			@if(Auth::check())
 				@if(is_null(Auth::user()->player_id))
 				<li>
 					<a href="{{url('/user/verify')}}">請先完善基本資料</a>
 				</li>
 				@endif
 				<img style='max-height: 48px;border-radius:50%;' src="{{Auth::user()->avatar}}" alt="">
+				尚餘 {{Auth::user()->point}} 棋元
 				<li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
 				@if(is_null(Auth::user()->player_id))

@@ -17,6 +17,7 @@
             map
         </div>
         <div class="panel-body">
+		<input type="button" onclick="window.open('http://www.dpxq.com/hldcg/dhtmlxq/frame_big5.htm','','width=760,height=415,resizeable=yes,status=yes')" value="转换棋谱" />
 		@if(0)
             <center>
 				文山陳建宇　先勝　文山王韋中(紅勝)
@@ -62,7 +63,9 @@
 [DhtmlXQ_generator]www.ccbridge.net[/DhtmlXQ_generator]
 [/DhtmlXQ]
 @endif
-<iframe src="http://www.dpxq.com/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com.htm" frameborder="0" scrolling="no" width="500" height="350" style="width:500px;height:350px;" name='NoFile_[DhtmlXQiFrame][DhtmlXQ_ver]www_dpxq_com[/DhtmlXQ_ver][DhtmlXQ_init]500,350[/DhtmlXQ_init][DhtmlXQ_binit]0919293949596979891777062646668600102030405060708012720323436383[/DhtmlXQ_binit][DhtmlXQ_title]文山陳建宇　先勝　文山王韋中[/DhtmlXQ_title][DhtmlXQ_event]2018「棋夢盃」全國象棋等級分分組排名試驗賽[/DhtmlXQ_event][DhtmlXQ_date]2018-03-24[/DhtmlXQ_date][DhtmlXQ_place]七張[/DhtmlXQ_place][DhtmlXQ_red]陳建宇[/DhtmlXQ_red][DhtmlXQ_black]王韋中[/DhtmlXQ_black][DhtmlXQ_result]紅勝[/DhtmlXQ_result][DhtmlXQ_open]D29 顺炮直车对横车[/DhtmlXQ_open][DhtmlXQ_movelist]774772427967808189797062192710222625813166650001675531381715232425240151556351542423224115454245474554240919123279772423775732336564232419123332645432222907386827156863150324260311222112322646574763663948463647373637323760424939416037304041303141404505[/DhtmlXQ_movelist][DhtmlXQ_type]實戰全局/開局[/DhtmlXQ_type][DhtmlXQ_firstnum]0[/DhtmlXQ_firstnum][DhtmlXQ_refer]http%3A//www.dpxq.com/%0D%0Ahttp%3A//www.dpxq.com/hldcg/dhtmlxq/frame.htm[/DhtmlXQ_refer][DhtmlXQ_generator]www.dpxq.com[/DhtmlXQ_generator][/DhtmlXQiFrame]'></iframe>
+@if(0)@endif
+<iframe src="/DhtmlXQ_www_dpxq_com/DhtmlXQ_www_dpxq_com_big5.htm" frameborder="0" scrolling="no" width="500" height="350" style="width:500px;height:350px;" name='NoFile_[DhtmlXQiFrame][DhtmlXQ_ver]www_dpxq_com[/DhtmlXQ_ver][DhtmlXQ_init]500,350[/DhtmlXQ_init][DhtmlXQ_binit]0919293949596979891777062646668600102030405060708012720323436383[/DhtmlXQ_binit][DhtmlXQ_title]文山陳建宇　先勝　文山王韋中[/DhtmlXQ_title][DhtmlXQ_event]2018「棋夢盃」全國象棋等級分分組排名試驗賽[/DhtmlXQ_event][DhtmlXQ_date]2018-03-24[/DhtmlXQ_date][DhtmlXQ_place]七張[/DhtmlXQ_place][DhtmlXQ_red]陳建宇[/DhtmlXQ_red][DhtmlXQ_black]王韋中[/DhtmlXQ_black][DhtmlXQ_result]紅勝[/DhtmlXQ_result][DhtmlXQ_open]D29 顺炮直车对横车[/DhtmlXQ_open][DhtmlXQ_movelist]774772427967808189797062192710222625813166650001675531381715232425240151556351542423224115454245474554240919123279772423775732336564232419123332645432222907386827156863150324260311222112322646574763663948463647373637323760424939416037304041303141404505[/DhtmlXQ_movelist][DhtmlXQ_type]實戰全局/開局[/DhtmlXQ_type][DhtmlXQ_firstnum]0[/DhtmlXQ_firstnum][DhtmlXQ_refer]http%3A//www.dpxq.com/%0D%0Ahttp%3A//www.dpxq.com/hldcg/dhtmlxq/frame.htm[/DhtmlXQ_refer][DhtmlXQ_generator]www.dpxq.com[/DhtmlXQ_generator][/DhtmlXQiFrame]'></iframe>
+		
 		</div>
     </div>
 </div>

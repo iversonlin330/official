@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>东萍DhtmlXQ动态棋盘放大效果</title>
+<style type="text/css">
+* {font-size:12px;font-family:宋体,SimSun,MS Song;}
+.aa * {font-family:Fixedsys}
+</style>
+<script language="javascript">
+var AC_FL_RunContent = 0;
+var w0=1;
+var h0=500;
+var t0=0;
+</script>
+<script src="zoom.js" language="javascript"></script>
+</head>
+<body style="border:0;margin:0;padding:0;background-color:#F4FCF3;">
+<div id="dhtmlxq_pview" style="display:none;"></div>
+<table id="tbl" width=100% height=100% cellspacing="0" cellpddding="2"><tr><td style="width:132px;height:100%;" valign="top">
+<select id="s" size="8" style="width:100%;" onclick="ShowDhtmlXQ(w0,h0,this.selectedIndex)">
+<option selected>点此查看简体DHTML版
+<option>点此查看简体FLASH版
+<option>点此查看简体 JAVA版
+<option>点此查看简体 图形版
+<option>点此查看繁体DHTML版
+<option>点此查看繁体FLASH版
+<option>点此查看繁体 JAVA版
+<option>点此查看繁体 图形版
+</select>
+<span class="aa">
+<nobr><a href="javascript:ShowDhtmlXQ(1.00,500)">1.00 500</a> <a href="javascript:ShowDhtmlXQ(1.00,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.00,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.05,500)">1.05 500</a> <a href="javascript:ShowDhtmlXQ(1.05,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.05,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.10,500)">1.10 500</a> <a href="javascript:ShowDhtmlXQ(1.10,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.10,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.15,500)">1.15 500</a> <a href="javascript:ShowDhtmlXQ(1.15,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.15,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.20,500)">1.20 500</a> <a href="javascript:ShowDhtmlXQ(1.20,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.20,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.25,500)">1.25 500</a> <a href="javascript:ShowDhtmlXQ(1.25,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.25,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.30,500)">1.30 500</a> <a href="javascript:ShowDhtmlXQ(1.30,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.30,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.35,500)">1.35 500</a> <a href="javascript:ShowDhtmlXQ(1.35,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.35,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.40,500)">1.40 500</a> <a href="javascript:ShowDhtmlXQ(1.40,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.40,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.45,500)">1.45 500</a> <a href="javascript:ShowDhtmlXQ(1.45,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.45,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.50,500)">1.50 500</a> <a href="javascript:ShowDhtmlXQ(1.50,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.50,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.55,500)">1.55 500</a> <a href="javascript:ShowDhtmlXQ(1.55,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.55,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.60,500)">1.60 500</a> <a href="javascript:ShowDhtmlXQ(1.60,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.60,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.70,500)">1.70 500</a> <a href="javascript:ShowDhtmlXQ(1.70,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.70,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.80,500)">1.80 500</a> <a href="javascript:ShowDhtmlXQ(1.80,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.80,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(1.90,500)">1.90 500</a> <a href="javascript:ShowDhtmlXQ(1.90,350) ">350</a> <a href="javascript:ShowDhtmlXQ(1.90,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(2.00,500)">2.00 500</a> <a href="javascript:ShowDhtmlXQ(2.00,350) ">350</a> <a href="javascript:ShowDhtmlXQ(2.00,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(2.10,500)">2.10 500</a> <a href="javascript:ShowDhtmlXQ(2.10,350) ">350</a> <a href="javascript:ShowDhtmlXQ(2.10,240) ">240</a></nobr><br>
+<nobr><a href="javascript:ShowDhtmlXQ(2.20,500)">2.20 500</a> <a href="javascript:ShowDhtmlXQ(2.20,350) ">350</a> <a href="javascript:ShowDhtmlXQ(2.20,240) ">240</a></nobr><br>
+<nobr><input type="text" id="beishu" style="width:50px;margin-right:2px;" value="" /><span style="font-size:16px;">倍</span> <input type="button" onclick="ShowInput()" style="width:50px;font-size:16px;" value="打开" /></nobr>
+</span>
+<br><nobr>点链接可按指定倍率放大</nobr>
+<nobr>放大倍数:<span id="fdbs" style="color:#f00">1.00</span> 棋子: <span id="qgdx" style="color:#f00"> 24</span></nobr>
+<nobr>棋盘宽度:<span id="bwidth" style="color:#f00">500 </span>&nbsp;高度:<span id="bheight" style="color:#f00">350</span></nobr>
+<nobr>棋子●字符Y:<span id="lhy" style="color:#f00">1</span>　棋子Y:<span id="lht" style="color:#f00">1</span></nobr>
+<div style="margin-top:12px;"><nobr><a href="/">返回首页</a>　<a href="/hldcg/search/">进入棋谱仓库</a></nobr></div>
+</td><td id="myDhtmlXQ" valign="top"></td></tr></table>
+<!--影片中使用的 URL-->
+<!--影片中使用的文本-->
+<!-- saved from url=(0013)about:internet -->
+<script language="javascript">
+function ShowInput() {
+	var err='请输入1.00-2.20之间的数字，注意小数点后要写上2位数字';
+	var b=document.getElementById("beishu").value;
+	b=b.match(/^[12]\.\d\d/gi);
+	if (b!=null)
+	{
+		b=b[0]-0;
+		if (b<=2.2&&b>=1.0)
+		{
+			ShowDhtmlXQ(b,500);
+		}
+		else alert(err);
+	}
+	else alert(err);
+}
+function ShowDhtmlXQ(w,h,t) {
+	if (w<1) w=1;     //限制最小为1.0倍
+	if (w>2.2) w=2.2; //限制最大为2.2倍
+	var fdbs=w;
+	w0=w;h0=h;if(t>=0&&t<=9)t0=t;
+	w=Math.round(h*w);
+	if (h==240) h=Math.round(w*35/24);
+	else if (h==350) h=Math.round(w);
+	else h=Math.round(w*7/10);
+	var isBIG5=(t0>=4)?"_big5":"";
+	var isIMG=(t0==3||t0==7)?true:false;
+	var imgqz=(isIMG)?'[DhtmlXQ_viewtype]img[/DhtmlXQ_viewtype]':'';
+	var zooms=(0)?'[DhtmlXQ_zoom]1.40.500[/DhtmlXQ_zoom]':'';
+	var lives=(0)?'[DhtmlXQ_class]对局直播[/DhtmlXQ_class][DhtmlXQ_liveid]1[/DhtmlXQ_liveid]':'';
+	var cn="东萍DhtmlXQ动态棋盘||版，东萍象棋网版权所有";
+	var tw="\u6771\u840DDhtmlXQ\u52D5\u614B\u68CB\u76E4||\u7248\uFF0C\u6771\u840D\u8C61\u68CB\u7DB2\u7248\u6B0A\u6240\u6709";
+	var str='[DhtmlXQ][DhtmlXQ_ver]www_dpxq_com'+isBIG5+'[/DhtmlXQ_ver][DhtmlXQ_init]'+w+','+h+'[/DhtmlXQ_init][DhtmlXQ_title]'+((isBIG5=='')?cn:tw)+'[/DhtmlXQ_title][DhtmlXQ_firstnum]12[/DhtmlXQ_firstnum]'+lives+zooms+imgqz+'[DhtmlXQ_movelist]77477062796780708979124266651022190700100919101579757282172715197570627007198262272363646755646555342002192762633453636959486566477742527771665653746042262542642735564635544656294769652383223474623426543330416270264748374768494865754838757837485232334568474857787038484755[/DhtmlXQ_movelist][/DhtmlXQ]';
+	document.getElementById('fdbs').innerHTML=((fdbs+0.0001)+' ').substr(0,4);
+	document.getElementById('bwidth').innerHTML=(' '+w).replace(/.*(.{4})$/gi,'$1').replace(' ','&nbsp;');
+	document.getElementById('bheight').innerHTML=h;
+	fdbs=parseInt(25*fdbs);if(fdbs%2==0)fdbs--;
+	document.getElementById('qgdx').innerHTML=fdbs;
+	if (t0==0||t0==4||t0==3||t0==7) {
+		var url='<iframe src="DhtmlXQ_www_dpxq_com'+isBIG5+'.htm" id="id_dhtmlxq_pview" name="name_dhtmlxq_pview" width="100%" height="100%" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>';
+		document.getElementById('dhtmlxq_pview').innerHTML=str.replace("||","HTML");
+		document.getElementById('myDhtmlXQ').innerHTML=url;
+	} else if (t0==2||t0==6) {
+		var url='<applet codebase="/java/" width="'+w+'" height="'+h+'" code="DhtmlXQ.class" MAYSCRIPT><param name="surl" value="/DhtmlXQ_www_dpxq_com/" /><param name="UBB" value="'+str.replace("||","JAVA")+'" /></applet>';
+		document.getElementById('myDhtmlXQ').innerHTML=url;
+	} else if (AC_FL_RunContent == 0) {
+		alert("require zoom.js");
+	} else {
+		str='DhtmlXQ='+str.replace("||","FLASH");
+		var url=((location.href.substr(0,4)!='http')?'http://localhost/DhtmlXQ_www_dpxq_com/DhtmlXQ':'DhtmlXQ');
+		AC_FL_RunContent(
+			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+			'width', w,
+			'height', h,
+			'src', url,
+			'quality', 'high',
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+			'align', 'middle',
+			'play', 'true',
+			'loop', 'true',
+			'scale', 'showall',
+			'wmode', 'window',
+			'devicefont', 'false',
+			'id', 'DhtmlXQ',
+			'bgcolor', '#ffffff',
+			'name', 'DhtmlXQ',
+			'menu', 'true',
+			'FlashVars', str,
+			'allowFullScreen', 'false',
+			'allowScriptAccess','sameDomain',
+			'movie', url,
+			'salign', ''
+			); //end AC code
+	}
+}
+ShowDhtmlXQ(1.00,500);
+</script>
+</body>
+</html>

@@ -26,7 +26,7 @@ class HomeController extends Controller
 			$youtube_ids = implode(',',$youtube_id);
 		}
 			
-		$key = "AIzaSyBTo6sn9kAI5g0DfbW5DHW7qk8XUjdeUc8";
+		$key = "AIzaSyDpSaiGzke6xuC4a41upWCTEKP6VuCHGBc";
 		$video_ids = $youtube_ids;
 		$url = "https://www.googleapis.com/youtube/v3/videos/?id=" . $video_ids ."&part=snippet%2CcontentDetails%2Cstatistics%2CliveStreamingDetails&key=" . $key;
 
