@@ -175,24 +175,25 @@
 	  // the chart.
 	 
 	  data: [
-	   @if(0)
+	   @if(0)@endif
 	  @foreach($player->player_score as $score)
-		{ game: {{$score->game_order}}, value: {{$score->glicko}} },
+		{ game: {{$score->game_order}}, glicko: {{$score->glicko}} },
 	  @endforeach
-	  @endif
+	  @if(0)
 		{ game: 0, glicko: 1740, elo: 1500},
 		{ game: 1, glicko: 1747, elo: 1550 },
 		{ game: 2, glicko: 1753, elo: 1600 },
 		{ game: 3, glicko: 1762, elo: 1620 }
+	  @endif
 		
 	  ],
 	  // The name of the data record attribute that contains x-values.
 	  xkey: 'game',
 	  // A list of names of data record attributes that contain y-values.
-	  ykeys: ['glicko','elo'],
+	  ykeys: ['glicko'],
 	  // Labels for the ykeys -- will be displayed when you hover over the
 	  // chart.
-	  labels: ['Glicko','Elo'],
+	  labels: ['Glicko'],
 	   ymin: 'auto',
 		ymax: 'auto',
 		parseTime: false,
