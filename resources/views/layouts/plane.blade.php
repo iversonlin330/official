@@ -8,14 +8,25 @@
   <meta charset="utf-8"/>
   <link rel="icon" type="image/x-icon" href="/icon.jpg" />
   <meta name="title" content ="棋夢元">
+  <meta name="keywords" content="象棋, 台灣, 排名賽 等級分, Elo, Glicko, SEO">
   <title>棋夢元</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <meta content="Taiwan chinese chess website." name="description"/>
-  <meta content="uylin40@gmail.com" name="author"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Taiwan chinese chess website.">
+  <meta name="author" content="uylin40@gmail.com">
+  
   <meta http-equiv="Content-Type" content="text/html" charset=utf-8">
   <meta property="fb:app_id" content="1946376638913233" />
   <meta property="fb:admins" content="1193482045"/>
+  
+  <meta property="og:title" content="棋夢元" >
+  <meta property="og:url" content="cchess.nctu.me">
+  <meta property="og:image" content="cchess.nctu.me/icon.jpg">
+  <meta property="og:description" content="Taiwan chinese chess website." >
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:type" content="website">
+  
+  
   <link rel="stylesheet" href="{{ asset("assets/stylesheets/styles.css") }}" />
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" type="text/css"/>
