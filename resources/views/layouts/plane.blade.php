@@ -8,7 +8,7 @@
   <meta charset="utf-8"/>
   <link rel="icon" type="image/x-icon" href="/icon.jpg" />
   <meta name="title" content ="棋夢元">
-  <meta name="keywords" content="象棋, 台灣, 排名賽 等級分, Elo, Glicko, SEO">
+  <meta name="keywords" content="象棋, 台灣象棋, 中華民國象棋, 台灣, 排名賽 等級分, Elo, Glicko, SEO">
   <title>棋夢元</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
