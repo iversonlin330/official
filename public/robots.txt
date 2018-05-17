@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: http://cchess.nctu.me/sitemap.xml
