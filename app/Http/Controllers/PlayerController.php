@@ -94,6 +94,30 @@ class PlayerController extends Controller
 		//$rt = \Excel::load($file, function($reader) {
 		//})->get();
 		$excel = \Excel::load($file)->all()->toArray();
+		foreach($excel as $key=>$val){
+			if($key<12)
+				continue;
+			//Name
+			$name = $val[0][2];
+			//dd($val);
+			foreach($val as $k=>$v){
+				if($k<3)
+					continue;
+				$game[$name][] = [
+					'time' => date('Y-m-d',strtotime($v[0])) . ' ' . date('H:i:s',strtotime($v[1])),
+					'played' => $v[2],
+					'opponent' => $v[3],
+					'opponent_rating' => $v[4],
+					'outcome' => $v[5],
+					'new_rating' => $v[6],
+					'change' => $v[7],
+				];
+				//dd($key,$v[0],$game);
+			}
+			//dd($val,$game);
+			//dd($val[0][2]);
+		}
+		dd($game);
 		dd($excel);
         return view('player.excel');
     }
