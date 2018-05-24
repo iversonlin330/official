@@ -1,11 +1,17 @@
 @extends('layouts.dashboard')
 @section('page_heading','比賽資訊')
-@section('section')
+@section('head')
+<link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.print.css" media="print" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css">
 <style>
 .table>tbody>tr>td{
     vertical-align: baseline;
 }
 </style>
+
+@stop
+@section('section')
+
 <div class="col-sm-12">
 	@if(Auth::user())
     <div>
@@ -58,20 +64,51 @@
 				</table>
 			  </div>
 			  <div id="calendar" class="tab-pane fade">
+					<div id='calendar2'></div>
+					@if(0)
 				<ul>
 					@foreach($games as $game)
 					<li>{{$game->game_date}}&nbsp{{$game->name}}</li>
 					@endforeach
 				</ul>
+				@endif
 			  </div>
 			</div>	
         </div>
     </div>
 </div>
 @section('script')
+  <script type="text/javascript" src=" https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/locale/zh-tw.js"></script>
+
 <script>
     $('table').DataTable({
 		"order": [[ 0, "desc" ]]
+	});
+	$(function() {
+
+	  // page is now ready, initialize the calendar...
+
+	$('#calendar2').fullCalendar({
+		lang: 'zh-tw',
+		defaultView:'listYear',
+		header: {
+			left: 'prev,next today',
+			center: 'title',
+			right: 'listYear,month'
+		 },
+		 events:[
+			 @foreach($games as $game)
+			 {
+				 title:"{{$game->name}}",
+				 start:"{{$game->game_date}}",
+				 url: "{{$game->link}}",
+			 },
+			 @endforeach
+		 ]
+	 })
+
 	});
 </script>
 @stop

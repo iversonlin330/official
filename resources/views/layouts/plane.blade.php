@@ -31,6 +31,7 @@
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css" type="text/css"/>
 	<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosanstc.css" type="text/css"/>
+	@yield('head')
 	<style>
 		body{
 			font-family: 'Noto Sans TC', sans-serif;
