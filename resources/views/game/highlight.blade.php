@@ -15,6 +15,7 @@
             賽事花絮
         </div>
         <div class="panel-body">
+			<div class="table-responsive">
             <table class="table table-bordered">
                 <thead>
                     <tr>
@@ -33,6 +34,7 @@
 				@endforeach
                 </tbody>
             </table>
+			</div>
         </div>
     </div>
 </div>

@@ -339,30 +339,40 @@
                         </li>
 						@endif
 						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('/game/sign-temp') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 比賽資訊</a>
+                            <a href="{{ url ('/game/sign-temp') }}"><i class="fa fa-info fa-fw"></i> 比賽資訊</a>
                             <!-- /.nav-second-level -->
                         </li>
 						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('/game/highlight') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 賽事花絮</a>
+                            <a href="#"><i class="fa fa-bullhorn fa-fw"></i> 棋賽戰況</a>
                             <!-- /.nav-second-level -->
                         </li>
 						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('/video/view') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 影片專區</a>
+                            <a href="{{ url ('/game/highlight') }}"><i class="fa fa-camera-retro fa-fw"></i> 賽事花絮</a>
                             <!-- /.nav-second-level -->
                         </li>
 						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('/game/playbook') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 棋譜中心</a>
+                            <a href="{{ url ('/video/view') }}"><i class="fa fa-video-camera fa-fw"></i> 影片專區</a>
                             <!-- /.nav-second-level -->
                         </li>
-			<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('/game/playbook') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 線上教室</a>
+						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/game/playbook') }}"><i class="fa fa-book fa-fw"></i> 棋譜中心</a>
                             <!-- /.nav-second-level -->
                         </li>
+						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
+                            <a href="{{ url ('/game/playbook') }}"><i class="fa fa-university fa-fw"></i> 線上教室</a>
+                            <!-- /.nav-second-level -->
+                        </li>
+						@if(0)
 						<li {{ (Request::is('forum') ? 'class="active"' : '') }}>
                             <a href="{{ url ('/forum/view') }}"><i class="fa fa-dashboard fa-fw"></i> 討論區</a>
                         </li>
+						@endif
                         <li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
-                            <a href="{{ url ('/player/view') }}"><i class="fa fa-bar-chart-o fa-fw"></i> 選手排行榜</a>
+                            <a href="{{ url ('/player/view') }}"><i class="fa fa-group fa-fw"></i> 選手排行榜</a>
+                            <!-- /.nav-second-level -->
+                        </li>
+						<li {{ (Request::is('*charts') ? 'class="active"' : '') }}>
+                            <a href="#"><i class="fa fa-heart fa-fw"></i> 愛心公益</a>
                             <!-- /.nav-second-level -->
                         </li>
 						@if(Auth::check() && 0)

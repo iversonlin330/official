@@ -156,7 +156,7 @@
 <div class="col-md-12">
 	<div class="panel panel-default">
 		<div class="panel-heading">
-			人氣值
+			棋手狀態
 		</div>
 		<div id="bar-example" style="height: 250px;"></div>
 	</div>
@@ -229,7 +229,7 @@
   ],
   xkey: 'y',
   ykeys: ['a', 'b'],
-  labels: ['Series A', 'Series B']
+  labels: ['年度累積得分', '人氣值']
 });
 </script>
 @stop

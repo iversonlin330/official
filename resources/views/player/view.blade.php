@@ -13,6 +13,7 @@
                 選手排行榜
             </div>
             <div class="panel-body">
+				<div class="table-responsive">
                 <table class="table table-bordered">
                     <thead>
                         <tr>
@@ -35,7 +36,7 @@
                             <td>{{$player->D}}</td>
                             <td></td>
                             <td><img style='width: 100%;' src="{{$player->pic_url}}" alt=""></td>
-                            <td>{{$player->name}}</td>
+                            <td><a href="{{ url('/player/show/'.$player->id) }}">{{$player->name}}</a></td>
                             <td>{{$player->player_vote->count()}}</td>
                             <td>
 							@if(Auth::check())
@@ -49,6 +50,7 @@
                         @endforeach
                     </tbody>
                 </table>
+				</div>
             </div>
         </div>
     </div>

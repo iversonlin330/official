@@ -12,7 +12,7 @@
   <title>棋夢元</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Taiwan chinese chess website.">
+  <meta name="description" content="專為台灣棋賽作記錄，方便棋手查詢勝敗、排名、儲存棋譜和棋藝學習的集中地。">
   <meta name="author" content="uylin40@gmail.com">
   
   <meta http-equiv="Content-Type" content="text/html" charset=utf-8">
@@ -22,7 +22,7 @@
   <meta property="og:title" content="棋夢元" >
   <meta property="og:url" content="cchess.nctu.me">
   <meta property="og:image" content="cchess.nctu.me/icon.jpg">
-  <meta property="og:description" content="Taiwan chinese chess website." >
+  <meta property="og:description" content="專為台灣棋賽作記錄，方便棋手查詢勝敗、排名、儲存棋譜和棋藝學習的集中地。" >
   <meta property="og:locale" content="zh_TW">
   <meta property="og:type" content="website">
   

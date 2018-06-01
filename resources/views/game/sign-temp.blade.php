@@ -24,12 +24,14 @@
         </div>
         <div class="panel-body">
 			<ul class="nav nav-tabs">
-			  <li class="active"><a data-toggle="tab" href="#list">列表</a></li>
-			  <li><a data-toggle="tab" href="#calendar">行事曆</a></li>
+			  <li class="active"><a data-toggle="tab" href="#calendar">行事曆</a></li>
+			  <li><a data-toggle="tab" href="#list">列表</a></li>
+			  
 			</ul>
 			<div class="tab-content">
 			<br>
-			  <div id="list" class="tab-pane fade in active">
+			  <div id="list" class="tab-pane fade">
+			  <div class="table-responsive">
 				<table class="table table-bordered">
 					<thead>
 						<tr>
@@ -62,8 +64,9 @@
 						@endforeach
 					</tbody>
 				</table>
+				</div>
 			  </div>
-			  <div id="calendar" class="tab-pane fade">
+			  <div id="calendar" class="tab-pane fade in active">
 					<div id='calendar2'></div>
 					@if(0)
 				<ul>
