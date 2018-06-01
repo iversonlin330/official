@@ -9,1203 +9,2503 @@
 
 <url>
   <loc>http://cchess.nctu.me/</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/sign-temp</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/highlight</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/video/view</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://cchess.nctu.me/forum/view</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/view</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/32</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/90</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/120</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/149</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/54</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/238</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/177</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3319</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/972</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/918</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/2214</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/1937</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/34</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/44</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/49</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/133</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/86</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/99</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/180</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/164</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/190</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/574</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/756</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3320</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3072</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/267</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/2</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/31</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/76</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/346</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3287</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/862</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/1225</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/847</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3330</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3332</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3331</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3329</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/1154</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/5</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/85</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3328</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/64</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/46</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/51</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/167</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/121</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/63</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/433</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/58</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/287</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/169</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/416</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/293</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/387</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/132</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/803</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/37</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/27</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/43</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/26</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/1</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/269</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/261</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/154</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3326</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/158</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3327</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/457</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/33</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/642</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/53</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/10</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/18</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/11</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/219</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/339</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/69</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/330</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/25</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/1962</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/1266</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/400</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/351</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/1588</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/1005</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/65</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/106</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/310</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/464</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/674</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/60</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/355</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/463</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/614</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/39</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/337</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/218</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/461</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/88</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/20</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/19</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/13</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/9</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/22</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/272</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/4</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/127</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/145</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/657</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/74</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3325</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/202</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/210</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/486</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/189</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/222</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/79</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/151</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/603</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/466</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/113</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/28</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/181</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/1142</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/70</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/15</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/89</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/75</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/215</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/296</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/306</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/291</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/84</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/118</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/68</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/146</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/1505</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3324</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/220</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3323</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3322</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/165</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/324</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/42</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/93</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/245</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/152</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/94</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/77</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/214</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/144</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/186</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/521</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/1562</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/251</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/41</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/216</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/142</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3321</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/40</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/967</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/212</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/7</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/179</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/678</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/658</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/56</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/252</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/159</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/138</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/143</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/200</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/598</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/675</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/player/show/3333</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/highlight-add</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/highlight-detail/3</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/highlight-detail/4</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/highlight-detail/5</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/highlight-detail/6</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/highlight-detail/9</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/highlight-detail/10</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/highlight-detail/11</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/game/highlight-detail/12</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/game/highlight-detail/13</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/game/highlight-detail/15</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/video/show/1</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/video/show/2</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/video/show/3</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/1</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/3</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/4</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/5</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/6</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/7</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/13</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/14</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/15</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/16</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/17</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/18</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/19</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/25</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/26</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/27</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/28</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/44</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/45</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/46</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/47</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/48</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/49</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/50</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/51</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/52</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/53</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/54</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/55</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/56</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/57</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/58</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/59</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/60</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/61</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/62</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/63</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/64</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/65</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/66</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/67</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/68</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://cchess.nctu.me/game/playbook-detail/69</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://cchess.nctu.me/forum/article-list</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
+  <loc>http://cchess.nctu.me/player/show/6</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://cchess.nctu.me/forum/article-detail</loc>
-  <lastmod>2018-05-17T03:36:53+00:00</lastmod>
-  <priority>0.51</priority>
+  <loc>http://cchess.nctu.me/player/show/8</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/12</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/14</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/16</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/17</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/21</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/23</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/24</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/29</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/30</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/35</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/36</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/38</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/45</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/47</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/48</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/50</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/52</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/55</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/57</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/59</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/61</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/62</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/66</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/67</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/71</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/72</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/73</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/78</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/80</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/81</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/82</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/83</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/87</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/91</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/92</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/95</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/96</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/97</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/98</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/100</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/101</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/102</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/103</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/104</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/105</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/107</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/108</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/109</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/110</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/111</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/112</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/114</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/115</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/116</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/117</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/119</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/122</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/123</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/124</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/125</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/126</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/128</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/129</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/130</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/131</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/134</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/135</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/136</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/137</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/139</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/140</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/141</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/147</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/148</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/150</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/153</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/155</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/156</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/157</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/160</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/161</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/162</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/163</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/166</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/168</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/170</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/171</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/172</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/173</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/174</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/175</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/176</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/178</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/182</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/183</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/184</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/185</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/187</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/188</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/191</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/192</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/193</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/194</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/195</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/196</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/197</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/198</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/199</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/201</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/203</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/204</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/205</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/206</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/207</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/208</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/209</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/211</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/213</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/217</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/221</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/223</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/224</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/225</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/226</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/227</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/228</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/229</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/230</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/231</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/232</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/233</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/234</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/235</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/236</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/237</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/239</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/240</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/241</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/242</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/243</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/244</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/246</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/247</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/248</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/249</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/250</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/253</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/254</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/255</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/256</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/257</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/258</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/259</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/260</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/262</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/263</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/264</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/265</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/266</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/268</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/270</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/271</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/273</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/274</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/275</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/276</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/277</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/278</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/279</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/280</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/281</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/282</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/283</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/284</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/285</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/286</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/288</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/289</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/290</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/292</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/294</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/295</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/297</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/298</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/299</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/300</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/301</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/302</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/303</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/304</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/305</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/307</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/308</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/309</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/311</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/312</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/313</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/314</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/315</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/316</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/317</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/318</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/319</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/320</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/321</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/322</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/323</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/325</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/326</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/327</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/328</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/329</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/331</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/332</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/333</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/334</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/335</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/336</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/338</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/340</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/341</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/342</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/343</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/344</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/345</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/347</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/348</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/349</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/350</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/352</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/353</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/354</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/356</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/357</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/358</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/359</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/360</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/361</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/362</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/363</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/364</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/365</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/366</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/367</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/368</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/369</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/370</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/371</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/372</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/373</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/374</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/375</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/376</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/377</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/378</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/379</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/380</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://cchess.nctu.me/player/show/381</loc>
+  <lastmod>2018-06-01T08:39:19+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
