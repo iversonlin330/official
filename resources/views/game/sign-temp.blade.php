@@ -95,11 +95,11 @@
 
 	$('#calendar2').fullCalendar({
 		lang: 'zh-tw',
-		defaultView:'listYear',
+		defaultView:'month',
 		header: {
 			left: 'prev,next today',
 			center: 'title',
-			right: 'listYear,month'
+			right: 'month,listYear'
 		 },
 		 events:[
 			 @foreach($games as $game)

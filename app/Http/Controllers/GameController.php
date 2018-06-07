@@ -232,6 +232,11 @@ class GameController extends Controller
 	
 	public function getPlaybookDetail($id){
 		$user = Auth::user();
+		if(!$user)
+			abort(401);
+		if($user->role == 0){
+			abort(401);
+		}
 		$playbook = \App\Game_playbook::find($id);
         return view('game.playbook-detail',compact('user','playbook'));
     }

@@ -34,7 +34,12 @@
 						<td>
 							<a href="{{url('/player/show/'.$playbook->defensive_player_id)}}">{{$playbook->	defensive_player->name}}</a>
 							</td>
-						<td><a class="btn btn-success" href="{{url('/game/playbook-detail/'.$playbook->id)}}">棋譜</a></td>	
+						<td>
+							@if(0)
+							<a class="btn btn-success" href="{{url('/game/playbook-detail/'.$playbook->id)}}">棋譜</a>
+							@endif
+							<a class="btn btn-success">無法觀看</a>
+						</td>	
 					</tr>
 					@endforeach
 				</tbody>
