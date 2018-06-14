@@ -294,6 +294,9 @@
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse collapse">
                     <ul class="nav" id="side-menu">
+					<li class="">
+						<gcse:search></gcse:search>
+					</li>
                     @if(0)
                         <li class="sidebar-search">
                             <div class="input-group custom-search-form">

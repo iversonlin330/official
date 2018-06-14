@@ -54,6 +54,17 @@
   @yield('body')
   <script src="{{ asset("assets/scripts/frontend.js") }}" type="text/javascript"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.min.js"></script>
+  <script>
+  (function() {
+    var cx = '017895017745350746194:rdns4a0o61k';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
   @yield('script')
 </body>
 </html>
