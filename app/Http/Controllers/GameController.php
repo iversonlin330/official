@@ -235,7 +235,7 @@ class GameController extends Controller
 		if(!$user)
 			abort(401);
 		if($user->is_playbook == 0){
-			abort(401);
+			//abort(401);
 		}
 		$playbook = \App\Game_playbook::find($id);
         return view('game.playbook-detail',compact('user','playbook'));
