@@ -36,7 +36,7 @@
 							</td>
 						<td>
 						@if($user)
-							@if($user->is_playbook)
+							@if($user->is_playbook || 1)
 							<a class="btn btn-success" href="{{url('/game/playbook-detail/'.$playbook->id)}}">棋譜</a>
 							@else
 								<a class="btn btn-success">無法觀看</a>
